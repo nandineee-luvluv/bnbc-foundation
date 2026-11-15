@@ -347,6 +347,12 @@ warnings (liquefaction trigger, raft-alternative review and three adjacent
 differential-settlement warnings). Regenerate the outputs with the Export page
 after changing the project.
 
+## Project context
+
+Durable session notes, architecture, audit, unit-system, verification, repository
+and backup records live in [`.xcontext/MAP.md`](.xcontext/MAP.md). Read that map
+first when resuming development.
+
 ## License
 
 Copyright (c) 2026 Nandini Shahnewaz.

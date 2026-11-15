@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "D001",
+      "area": "units",
+      "decision": "Keep all calculations and stored numeric values in SI; convert only at GUI, import, export and report boundaries.",
+      "status": "accepted",
+      "rationale": "One calculation basis avoids drift and keeps JSON files independent of the display system.",
+      "related": ["units.md", "../bnbc_foundation/core/units.py"]
+    },
+    {
+      "id": "D002",
+      "area": "geometry",
+      "decision": "Column (x,y) is the reaction/insertion point; the centre is (x+dx, y+dy). Rectangular sections rotate counter-clockwise; wall moments use wall-local axes.",
+      "status": "accepted",
+      "rationale": "Matches ETABS/SAFE insertion-point exports and real wall orientation.",
+      "related": ["architecture.md", "../bnbc_foundation/core/geometry.py", "../bnbc_foundation/core/models.py"]
+    },
+    {
+      "id": "D003",
+      "area": "selection",
+      "decision": "Evaluate all allowed foundation types per element, reject clashes/outside-site options, rank by preference or cost, and retain alternatives.",
+      "status": "accepted",
+      "rationale": "Gives the engineer a reviewable set of feasible options rather than a single opaque answer.",
+      "related": ["context.md", "../bnbc_foundation/core/selector.py"]
+    },
+    {
+      "id": "D004",
+      "area": "rafts",
+      "decision": "Report rigid contact pressure always; use Winkler strips for ordinary rafts and a 16-DOF Kirchhoff plate on Winkler springs for large/custom rafts.",
+      "status": "accepted",
+      "rationale": "Balances speed with a higher-order method where geometry or size demands it.",
+      "related": ["architecture.md", "../bnbc_foundation/core/raft.py"]
+    },
+    {
+      "id": "D005",
+      "area": "piles",
+      "decision": "Support SPT, static, CPT and direct-report capacity methods; CPT uses qc in MPa and fs in kPa; include downdrag, uplift, Broms lateral and P-M checks.",
+      "status": "accepted",
+      "rationale": "Covers the common soil-report and code workflows without forcing one correlation.",
+      "related": ["context.md", "../bnbc_foundation/core/piles.py"]
+    },
+    {
+      "id": "D006",
+      "area": "loads",
+      "decision": "Accept pre-combined service/factored envelopes, DL/LL/WL/EQ cases, or ETABS/SAFE CSV import; strip numeric coefficients when detecting lateral load cases.",
+      "status": "accepted",
+      "rationale": "Supports both simple and model-based workflows and avoids missing 1.2D+1.6W-style names.",
+      "related": ["context.md", "../bnbc_foundation/core/loads.py", "../bnbc_foundation/core/report.py"]
+    },
+    {
+      "id": "D007",
+      "area": "reporting",
+      "decision": "Produce a ten-sheet Excel workbook, printable PDF, CSV schedule, JSON project and Excel import template; supplemental checks appear in both Excel and PDF.",
+      "status": "accepted",
+      "rationale": "Covers review, hand-off, quantity take-off and reloadable project storage.",
+      "related": ["architecture.md", "../bnbc_foundation/core/report.py"]
+    },
+    {
+      "id": "D008",
+      "area": "persistence",
+      "decision": "JSON stores SI numeric values and records the display system in info.units.",
+      "status": "accepted",
+      "rationale": "Reloading can restore the user's view without altering engineering values.",
+      "related": ["units.md", "../bnbc_foundation/core/models.py"]
+    },
+    {
+      "id": "D009",
+      "area": "quality",
+      "decision": "Close all 17 Ponytail audit findings and keep a regression case for every functional fix.",
+      "status": "accepted",
+      "rationale": "Prevents the audited failure modes from silently returning.",
+      "related": ["audit.md", "../tests/test_regressions.py"]
+    },
+    {
+      "id": "D010",
+      "area": "ownership",
+      "decision": "Publish under the MIT license with copyright held by Nandini Shahnewaz; require retention of the copyright and permission notice.",
+      "status": "accepted",
+      "rationale": "Allows free use and commercial adoption while preserving attribution and ownership of the original work.",
+      "related": ["repository.md", "../LICENSE"]
+    },
+    {
+      "id": "D011",
+      "area": "backup",
+      "decision": "Keep a local zip inside the project root, honour .zipignore, include .git history, and exclude virtualenvs, caches, internal skills and nested archives.",
+      "status": "accepted",
+      "rationale": "Provides a complete restorable snapshot without bloating the archive with reproducible environments.",
+      "related": ["backup.md", "../.zipignore", "../.gitignore"]
+    },
+    {
+      "id": "D012",
+      "area": "repository",
+      "decision": "Maintain the project as a public GitHub repository on main, with samples and .xcontext tracked and generated exports/archives ignored.",
+      "status": "accepted",
+      "rationale": "Keeps the published source complete and reproducible while avoiding large local artifacts.",
+      "related": ["repository.md", "../.gitignore"]
+    },
+    {
+      "id": "D013",
+      "area": "context",
+      "decision": "Use .xcontext as the durable, interconnected session handoff, with .opencode retained as the detailed historical log.",
+      "status": "accepted",
+      "rationale": "A compact map plus focused records and JSON state makes the next session fast to resume.",
+      "related": ["MAP.md", "handoff.md", "manifest.json"]
+    }
+  ]
+}

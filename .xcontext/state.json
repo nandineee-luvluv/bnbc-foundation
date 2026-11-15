@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-15",
+  "project": {
+    "name": "BNBC 2020 Foundation Designer",
+    "package": "bnbc_foundation",
+    "entry_point": "run.py",
+    "design_code": "BNBC 2020, Part 6, Chapters 2, 3, 6 and 8",
+    "functionally_complete": true,
+    "phase": "audit-closed"
+  },
+  "quality": {
+    "tests_collected": 91,
+    "tests_passed": 91,
+    "tests_failed": 0,
+    "regression_functions": 17,
+    "regression_cases": 18,
+    "smoke_exit": 0,
+    "compileall": true,
+    "unused_imports": 0,
+    "last_full_test_command": "QT_QPA_PLATFORM=offscreen .venv/bin/python -m pytest -q",
+    "last_smoke_command": ".venv/bin/python run.py --smoke"
+  },
+  "tests": {
+    "bearing_concrete": 6,
+    "future_features": 19,
+    "geometry": 12,
+    "gui": 3,
+    "piles": 5,
+    "regressions": 18,
+    "report": 8,
+    "selection": 6,
+    "soil": 6,
+    "units": 8
+  },
+  "samples": {
+    "results": 8,
+    "selected": 7,
+    "alternatives": 1,
+    "selected_ids": ["W1", "C1", "C2", "C3", "C4", "C5", "C6"],
+    "alternative_ids": ["RAFT-1"],
+    "all_selected_status": "CHECK",
+    "project_warnings": 5,
+    "report_warning_lines": 12,
+    "files": [
+      "samples/Sample_Residential_Building.xlsx",
+      "samples/Sample_Residential_Building.pdf",
+      "samples/Sample_Residential_Building.csv",
+      "samples/Sample_Residential_Building.json",
+      "samples/Sample_Residential_Building_import_template.xlsx"
+    ],
+    "note": "CHECK is intentional: the synthetic demonstration soil is deliberately soft clay, not a constructible final design."
+  },
+  "units": {
+    "internal": "SI",
+    "display_systems": ["SI", "US"],
+    "json_numeric_values": "SI",
+    "json_display_key": "info.units",
+    "cost_rate_quantities": [
+      "cost_per_volume",
+      "cost_per_length",
+      "cost_per_mass",
+      "cost_per_area"
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/nandineee-luvluv/bnbc-foundation",
+    "owner": "Nandini Shahnewaz",
+    "visibility": "public",
+    "license": "MIT",
+    "default_branch": "main",
+    "topics": [
+      "bnbc",
+      "civil-engineering",
+      "foundation-design",
+      "geotechnical-engineering",
+      "pyside6",
+      "python",
+      "structural-engineering"
+    ],
+    "commits": [
+      {"hash": "073dbb9", "message": "Initial public release: BNBC 2020 foundation designer"},
+      {"hash": "8c419db", "message": "Add zip backup ignore rules"}
+    ],
+    "head_before_context": "8c419db",
+    "context_commit_note": "The commit adding .xcontext is the current main HEAD; use git log for the exact hash."
+  },
+  "backup": {
+    "path": "/home/anway/Documents/OpencodeProjects/project01/bnbc-foundation-backup-2026-11-15.zip",
+    "format": "zip",
+    "top_level": "bnbc-foundation/",
+    "ignore_file": ".zipignore",
+    "archive_ignored_by_git": true,
+    "included": [
+      "source",
+      "tests",
+      "samples",
+      ".opencode docs",
+      ".xcontext",
+      "README",
+      "LICENSE",
+      "requirements",
+      "run.py",
+      ".gitignore",
+      ".zipignore",
+      ".git history"
+    ],
+    "excluded": [
+      ".venv",
+      "python/test caches",
+      "build/dist",
+      "exports",
+      "logs",
+      "nested archives",
+      ".opencode/skills",
+      "OS/editor files"
+    ],
+    "checksum_command": "sha256sum bnbc-foundation-backup-2026-11-15.zip",
+    "note": "The archive is regenerated after .xcontext is added, so its size and checksum changed from the pre-context 153-entry/718312-byte snapshot."
+  },
+  "blockers": [
+    "Real soil-report and ETABS/SAFE reaction files are unavailable; the synthetic sample remains the validation case.",
+    "The Windows executable must be built and tested on Windows with PyInstaller.",
+    "GUI dialogs are covered by the offscreen smoke test, not interactive testing."
+  ],
+  "next_steps": [
+    "Validate against a real soil report and base-reaction export.",
+    "Confirm ETABS/SAFE case naming and sign conventions.",
+    "Build and test the Windows PyInstaller executable.",
+    "Add screenshots or a short user guide if distributing the application.",
+    "Keep .xcontext and the local zip backup current after changes."
+  ]
+}

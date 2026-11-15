@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "generated": "2026-11-15",
+  "project": {
+    "name": "BNBC 2020 Foundation Designer",
+    "package": "bnbc_foundation",
+    "repository": "https://github.com/nandineee-luvluv/bnbc-foundation",
+    "license": "MIT",
+    "owner": "Nandini Shahnewaz"
+  },
+  "map": "MAP.md",
+  "paths_relative_to": ".xcontext/",
+  "reading_order": [
+    "context.md",
+    "architecture.md",
+    "audit.md",
+    "units.md",
+    "verification.md",
+    "repository.md",
+    "backup.md",
+    "worklog.md",
+    "handoff.md"
+  ],
+  "files": [
+    {
+      "path": "MAP.md",
+      "type": "markdown",
+      "role": "map",
+      "summary": "Central index, reading order, relationship diagram and source-of-truth policy.",
+      "links": [
+        "context.md",
+        "architecture.md",
+        "audit.md",
+        "units.md",
+        "verification.md",
+        "repository.md",
+        "backup.md",
+        "worklog.md",
+        "handoff.md",
+        "manifest.json",
+        "state.json",
+        "decisions.json",
+        "timeline.json"
+      ]
+    },
+    {
+      "path": "context.md",
+      "type": "markdown",
+      "role": "project-context",
+      "summary": "Objective, workflow, confirmed decisions, current state, limits and detailed-history links.",
+      "links": [
+        "MAP.md",
+        "architecture.md",
+        "decisions.json",
+        "handoff.md",
+        "state.json",
+        "../.opencode/progression.md",
+        "../.opencode/ponyfix.md"
+      ]
+    },
+    {
+      "path": "architecture.md",
+      "type": "markdown",
+      "role": "architecture",
+      "summary": "Package layout, data flow, models, calculation pipeline, conventions and extension points.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "units.md",
+        "verification.md",
+        "../.opencode/context.md"
+      ]
+    },
+    {
+      "path": "audit.md",
+      "type": "markdown",
+      "role": "audit-record",
+      "summary": "All 17 Ponytail audit fixes grouped by priority, with regression test names.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "verification.md",
+        "worklog.md",
+        "../.opencode/ponyfix.md"
+      ]
+    },
+    {
+      "path": "units.md",
+      "type": "markdown",
+      "role": "unit-system",
+      "summary": "SI/US boundary rules, conversion registry, dynamic labels, cost rates, JSON semantics and tests.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "architecture.md",
+        "verification.md",
+        "state.json",
+        "../bnbc_foundation/core/units.py"
+      ]
+    },
+    {
+      "path": "verification.md",
+      "type": "markdown",
+      "role": "verification",
+      "summary": "Test inventory, 91-pass result, smoke/compile/static checks, sample state, US export and backup restore evidence.",
+      "links": [
+        "MAP.md",
+        "audit.md",
+        "units.md",
+        "backup.md",
+        "state.json"
+      ]
+    },
+    {
+      "path": "repository.md",
+      "type": "markdown",
+      "role": "repository",
+      "summary": "Public GitHub URL, owner, MIT license, commits, topics, tracked/excluded files and publishing commands.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "backup.md",
+        "handoff.md",
+        "../LICENSE",
+        "../README.md",
+        "../.gitignore"
+      ]
+    },
+    {
+      "path": "backup.md",
+      "type": "markdown",
+      "role": "backup",
+      "summary": "Local zip location, contents, .zipignore exclusions, restore procedure, regeneration and historical verification.",
+      "links": [
+        "MAP.md",
+        "repository.md",
+        "verification.md",
+        "handoff.md",
+        "../.zipignore",
+        "../.gitignore"
+      ]
+    },
+    {
+      "path": "worklog.md",
+      "type": "markdown",
+      "role": "worklog",
+      "summary": "Chronological record of the build, feature completion, audit/fixes, units, verification, publication, backup and context work.",
+      "links": [
+        "MAP.md",
+        "timeline.json",
+        "audit.md",
+        "repository.md",
+        "backup.md",
+        "../.opencode/progression.md"
+      ]
+    },
+    {
+      "path": "handoff.md",
+      "type": "markdown",
+      "role": "handoff",
+      "summary": "Next-session start checklist, current state, remaining work, gotchas, context-update procedure and lookup table.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "state.json",
+        "decisions.json",
+        "worklog.md",
+        "repository.md",
+        "backup.md"
+      ]
+    },
+    {
+      "path": "manifest.json",
+      "type": "json",
+      "role": "machine-map",
+      "summary": "File inventory, reading order, roles, links and relationship edges.",
+      "links": [
+        "MAP.md",
+        "state.json",
+        "decisions.json",
+        "timeline.json"
+      ]
+    },
+    {
+      "path": "state.json",
+      "type": "json",
+      "role": "machine-state",
+      "summary": "Current quality, sample, repository, unit and backup status plus blockers and next steps.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "verification.md",
+        "repository.md",
+        "backup.md",
+        "handoff.md"
+      ]
+    },
+    {
+      "path": "decisions.json",
+      "type": "json",
+      "role": "decision-register",
+      "summary": "Accepted engineering/product decisions with IDs, rationale and related records.",
+      "links": [
+        "MAP.md",
+        "context.md",
+        "architecture.md",
+        "units.md",
+        "audit.md"
+      ]
+    },
+    {
+      "path": "timeline.json",
+      "type": "json",
+      "role": "event-log",
+      "summary": "Structured chronology of build, audit, fixes, units, verification, publication, backup and context events.",
+      "links": [
+        "MAP.md",
+        "worklog.md",
+        "state.json"
+      ]
+    }
+  ],
+  "relationships": [
+    {"from": "MAP.md", "to": "context.md", "relation": "indexes"},
+    {"from": "context.md", "to": "architecture.md", "relation": "explains"},
+    {"from": "context.md", "to": "decisions.json", "relation": "summarizes"},
+    {"from": "architecture.md", "to": "units.md", "relation": "uses"},
+    {"from": "audit.md", "to": "verification.md", "relation": "proves"},
+    {"from": "units.md", "to": "verification.md", "relation": "tested-by"},
+    {"from": "verification.md", "to": "backup.md", "relation": "restore-checked-by"},
+    {"from": "repository.md", "to": "backup.md", "relation": "complements"},
+    {"from": "worklog.md", "to": "timeline.json", "relation": "mirrors"},
+    {"from": "handoff.md", "to": "state.json", "relation": "reads"},
+    {"from": "handoff.md", "to": "decisions.json", "relation": "respects"},
+    {"from": "manifest.json", "to": "MAP.md", "relation": "machine-index-of"}
+  ],
+  "external": {
+    "project_root": "..",
+    "readme": "../README.md",
+    "license": "../LICENSE",
+    "requirements": "../requirements.txt",
+    "gitignore": "../.gitignore",
+    "zipignore": "../.zipignore",
+    "detailed_history": "../.opencode/progression.md",
+    "audit_plan": "../.opencode/ponyfix.md",
+    "todo": "../.opencode/todo.md",
+    "backup_archive": "../bnbc-foundation-backup-2026-11-15.zip"
+  }
+}

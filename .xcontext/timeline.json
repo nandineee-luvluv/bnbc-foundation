@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "source": ".opencode/progression.md",
+  "events": [
+    {
+      "date": "2026-11-13",
+      "phase": "build",
+      "summary": "Created the package, PySide6 shell, data models, JSON persistence, synthetic sample, geometry, loads, soil, bearing, settlement, piles, raft, structural checks, rebar/BBS, selector, exports, GUI pages and initial tests.",
+      "artifacts": [
+        "bnbc_foundation/",
+        "run.py",
+        "requirements.txt",
+        "tests/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "feature-completion",
+      "summary": "Added ETABS/SAFE import, CPT data, custom raft outlines, combined-footing checks, pile-cap strut-and-tie, crack width, uplift, downdrag, Broms lateral capacity, P-M interaction, rotated geometry and the angled-wall sample.",
+      "artifacts": [
+        "bnbc_foundation/core/",
+        "bnbc_foundation/ui/",
+        "tests/",
+        "samples/"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "audit",
+      "summary": "Ran a whole-build Ponytail audit and confirmed 17 findings: 8 Must fix, 7 Should fix and 2 Nice to have.",
+      "artifacts": [
+        ".opencode/ponyfix.md",
+        ".opencode/todo.md"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "fixes",
+      "summary": "Fixed all 17 findings, including raft differential units, pile-cap anchorage, strip/combined status and flexure, reaction CSV replacement, Broms strengths, rotation projections, CPT import, net-pressure settlement, mat steel weight, PDF raft moments, pile-cap flexure reporting, rotated site plans, lateral tokens, direct end bearing, merged remarks and dead-code removal.",
+      "artifacts": [
+        "bnbc_foundation/",
+        "tests/test_regressions.py"
+      ],
+      "tests": "18 regression cases covering 17 functions"
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "units",
+      "summary": "Added SI/US interchangeability with a conversion registry, GUI bindings, import/export/report conversion, cost-rate quantities, dynamic labels and JSON info.units semantics.",
+      "artifacts": [
+        "bnbc_foundation/core/units.py",
+        "bnbc_foundation/ui/",
+        "tests/test_units.py"
+      ],
+      "tests": "8 unit-system cases"
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "documentation",
+      "summary": "Updated README and .opencode context/plan/todo/progression/ponyfix for the completed audit and unit system; regenerated samples.",
+      "artifacts": [
+        "README.md",
+        ".opencode/",
+        "samples/"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "verification",
+      "summary": "Completed the final documentation consistency pass and reran verification: 91 tests passed, smoke exit 0, compileall and unused-import scan clean; samples showed 8 results, 7 selected, all CHECK, RAFT-1 alternative, 5 warnings and 12 report lines.",
+      "artifacts": [
+        "samples/",
+        ".xcontext/verification.md"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "publish",
+      "summary": "Created the public GitHub repository with MIT license, owner attribution, description and discovery topics; pushed the initial 56-file release.",
+      "commits": ["073dbb9"],
+      "url": "https://github.com/nandineee-luvluv/bnbc-foundation",
+      "artifacts": [
+        "LICENSE",
+        ".gitignore",
+        "README.md"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "backup-policy",
+      "summary": "Added .zipignore and archive/backup rules to .gitignore; committed and pushed the backup ignore configuration.",
+      "commits": ["8c419db"],
+      "artifacts": [
+        ".zipignore",
+        ".gitignore"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "backup",
+      "summary": "Created a local zip backup, then moved it from a sibling backups/ folder into the project root as requested; verified a clean restore with 91 passing tests, smoke exit 0 and matching sample checksums.",
+      "artifacts": [
+        "bnbc-foundation-backup-2026-11-15.zip"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "context",
+      "summary": "Added the .xcontext durable knowledge base: central map, nine focused markdown records and four JSON indexes for state, decisions, files and timeline.",
+      "artifacts": [
+        ".xcontext/MAP.md",
+        ".xcontext/context.md",
+        ".xcontext/architecture.md",
+        ".xcontext/audit.md",
+        ".xcontext/units.md",
+        ".xcontext/verification.md",
+        ".xcontext/repository.md",
+        ".xcontext/backup.md",
+        ".xcontext/worklog.md",
+        ".xcontext/handoff.md",
+        ".xcontext/manifest.json",
+        ".xcontext/state.json",
+        ".xcontext/decisions.json",
+        ".xcontext/timeline.json"
+      ]
+    }
+  ]
+}
