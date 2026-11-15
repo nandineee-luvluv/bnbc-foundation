@@ -29,6 +29,14 @@ exports/
 *.log
 *.bnbc.json
 
+# Archives and local backups
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+backups/
+
 # Generated documents: keep the curated sample outputs below
 *.xlsx
 *.pdf

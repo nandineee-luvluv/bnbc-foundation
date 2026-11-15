@@ -1,0 +1,56 @@
+# .zipignore — exclusions for the bnbc-foundation project backup.
+#
+# The backup intentionally includes the source, tests, samples, project docs,
+# README, LICENSE, .gitignore, .zipignore and the .git history, so it can be
+# restored as a complete working repository.
+#
+# Patterns use shell-glob syntax relative to the project root. A trailing
+# slash matches a directory and everything below it.
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode, package and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and local output directories
+build/
+dist/
+*.spec
+exports/
+
+# Logs and archives (never nest the backup inside itself)
+*.log
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Internal agent tooling; the project documentation in .opencode is kept
+.opencode/skills/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
