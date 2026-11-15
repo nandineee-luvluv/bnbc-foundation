@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local/generated outputs
+exports/
+*.log
+*.bnbc.json
+
+# Generated documents: keep the curated sample outputs below
+*.xlsx
+*.pdf
+*.csv
+!samples/*.xlsx
+!samples/*.pdf
+!samples/*.csv
+
+# Internal agent/tooling files (not part of the application)
+.opencode/skills/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

@@ -1,0 +1,4209 @@
+{
+  "info": {
+    "name": "Sample Residential Building",
+    "location": "Dhaka, Bangladesh",
+    "engineer": "Design Engineer",
+    "date": "2026-11-15",
+    "code": "BNBC 2020",
+    "units": "SI",
+    "notes": "Synthetic demonstration project"
+  },
+  "materials": {
+    "f_c": 30.0,
+    "f_y": 420.0,
+    "gamma_concrete": 24.0,
+    "cover": 75.0,
+    "phi_flexure": 0.9,
+    "phi_shear": 0.75,
+    "phi_bearing": 0.65,
+    "bar_diameters": [
+      12.0,
+      16.0,
+      20.0,
+      25.0
+    ],
+    "max_bar_spacing": 300.0,
+    "min_bar_spacing": 100.0,
+    "concrete_unit_weight": 24.0
+  },
+  "boreholes": [
+    {
+      "id": "BH-1",
+      "x": 0.0,
+      "y": 0.0,
+      "gwt": 2.0,
+      "layers": [
+        {
+          "bottom_depth": 3.0,
+          "soil_type": "Fill",
+          "description": "Loose silty fill",
+          "gamma": 17.0,
+          "gamma_sat": 18.5,
+          "cohesion": 0.0,
+          "friction_angle": 26.0,
+          "cu": 0.0,
+          "n_raw": 6,
+          "n60": 5,
+          "cc": 0.0,
+          "e0": 0.0,
+          "ocr": 1.0,
+          "ll": 0.0,
+          "pl": 0.0,
+          "fines": 0.0,
+          "es": 4000.0,
+          "k_subgrade": 0.0,
+          "allowable_bearing": null,
+          "pile_skin": null,
+          "pile_end": null,
+          "pile_skin_driven": null,
+          "pile_end_driven": null,
+          "pile_skin_bored": null,
+          "pile_end_bored": null,
+          "qc": 0.0,
+          "cpt_fs": 0.0,
+          "cpt_u2": 0.0
+        },
+        {
+          "bottom_depth": 8.0,
+          "soil_type": "CL",
+          "description": "Soft to medium clay",
+          "gamma": 17.5,
+          "gamma_sat": 18.5,
+          "cohesion": 5.0,
+          "friction_angle": 0.0,
+          "cu": 35.0,
+          "n_raw": 7,
+          "n60": 6,
+          "cc": 0.28,
+          "e0": 0.95,
+          "ocr": 1.0,
+          "ll": 42.0,
+          "pl": 20.0,
+          "fines": 70.0,
+          "es": 6000.0,
+          "k_subgrade": 0.0,
+          "allowable_bearing": null,
+          "pile_skin": null,
+          "pile_end": null,
+          "pile_skin_driven": null,
+          "pile_end_driven": null,
+          "pile_skin_bored": null,
+          "pile_end_bored": null,
+          "qc": 0.0,
+          "cpt_fs": 0.0,
+          "cpt_u2": 0.0
+        },
+        {
+          "bottom_depth": 16.0,
+          "soil_type": "SM",
+          "description": "Medium dense silty sand",
+          "gamma": 18.5,
+          "gamma_sat": 19.5,
+          "cohesion": 0.0,
+          "friction_angle": 32.0,
+          "cu": 0.0,
+          "n_raw": 18,
+          "n60": 16,
+          "cc": 0.05,
+          "e0": 0.65,
+          "ocr": 1.0,
+          "ll": 0.0,
+          "pl": 0.0,
+          "fines": 0.0,
+          "es": 18000.0,
+          "k_subgrade": 0.0,
+          "allowable_bearing": null,
+          "pile_skin": null,
+          "pile_end": null,
+          "pile_skin_driven": null,
+          "pile_end_driven": null,
+          "pile_skin_bored": null,
+          "pile_end_bored": null,
+          "qc": 8.0,
+          "cpt_fs": 70.0,
+          "cpt_u2": 0.0
+        },
+        {
+          "bottom_depth": 25.0,
+          "soil_type": "SP",
+          "description": "Dense sand",
+          "gamma": 19.5,
+          "gamma_sat": 20.5,
+          "cohesion": 0.0,
+          "friction_angle": 36.0,
+          "cu": 0.0,
+          "n_raw": 35,
+          "n60": 32,
+          "cc": 0.02,
+          "e0": 0.5,
+          "ocr": 1.0,
+          "ll": 0.0,
+          "pl": 0.0,
+          "fines": 0.0,
+          "es": 35000.0,
+          "k_subgrade": 0.0,
+          "allowable_bearing": null,
+          "pile_skin": null,
+          "pile_end": null,
+          "pile_skin_driven": null,
+          "pile_end_driven": null,
+          "pile_skin_bored": null,
+          "pile_end_bored": null,
+          "qc": 16.0,
+          "cpt_fs": 140.0,
+          "cpt_u2": 0.0
+        },
+        {
+          "bottom_depth": 35.0,
+          "soil_type": "CL",
+          "description": "Very stiff clay",
+          "gamma": 19.0,
+          "gamma_sat": 20.0,
+          "cohesion": 25.0,
+          "friction_angle": 0.0,
+          "cu": 120.0,
+          "n_raw": 28,
+          "n60": 26,
+          "cc": 0.15,
+          "e0": 0.7,
+          "ocr": 2.0,
+          "ll": 38.0,
+          "pl": 18.0,
+          "fines": 80.0,
+          "es": 25000.0,
+          "k_subgrade": 0.0,
+          "allowable_bearing": null,
+          "pile_skin": null,
+          "pile_end": null,
+          "pile_skin_driven": null,
+          "pile_end_driven": null,
+          "pile_skin_bored": null,
+          "pile_end_bored": null,
+          "qc": 0.0,
+          "cpt_fs": 0.0,
+          "cpt_u2": 0.0
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "C1",
+      "kind": "column",
+      "x": 0.0,
+      "y": 0.0,
+      "base_elev": 0.0,
+      "length": 0.45,
+      "width": 0.45,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 900.0,
+          "Mx": 30.0,
+          "My": 25.0,
+          "Vx": 20.0,
+          "Vy": 15.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 1260.0,
+          "Mx": 42.0,
+          "My": 35.0,
+          "Vx": 28.0,
+          "Vy": 21.0,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Rectangular column, 0.15 m centre offset in x",
+      "dx": 0.15,
+      "dy": 0.0,
+      "shape": "Rectangular",
+      "diameter": 0.0,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 0.0
+    },
+    {
+      "id": "C2",
+      "kind": "column",
+      "x": 6.0,
+      "y": 0.0,
+      "base_elev": 0.0,
+      "length": 0.6,
+      "width": 0.6,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 1800.0,
+          "Mx": 70.0,
+          "My": 45.0,
+          "Vx": 40.0,
+          "Vy": 25.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 2520.0,
+          "Mx": 98.0,
+          "My": 63.0,
+          "Vx": 56.0,
+          "Vy": 35.0,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Circular column, 0.60 m diameter, 0.10 m centre offset in y",
+      "dx": 0.0,
+      "dy": 0.1,
+      "shape": "Circular",
+      "diameter": 0.6,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 0.0
+    },
+    {
+      "id": "C3",
+      "kind": "column",
+      "x": 12.0,
+      "y": 0.0,
+      "base_elev": 0.0,
+      "length": 0.45,
+      "width": 0.45,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 1150.0,
+          "Mx": 40.0,
+          "My": 30.0,
+          "Vx": 25.0,
+          "Vy": 18.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 1610.0,
+          "Mx": 56.0,
+          "My": 42.0,
+          "Vx": 35.0,
+          "Vy": 25.2,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Rectangular column, 0.10 m offset in -x, rotated 30 degrees",
+      "dx": -0.1,
+      "dy": 0.05,
+      "shape": "Rectangular",
+      "diameter": 0.0,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 30.0
+    },
+    {
+      "id": "C4",
+      "kind": "column",
+      "x": 0.0,
+      "y": 7.0,
+      "base_elev": 0.0,
+      "length": 0.5,
+      "width": 0.5,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 2400.0,
+          "Mx": 90.0,
+          "My": 60.0,
+          "Vx": 55.0,
+          "Vy": 35.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 3360.0,
+          "Mx": 126.0,
+          "My": 84.0,
+          "Vx": 77.0,
+          "Vy": 49.0,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Rectangular column, 0.10 m offset in x and -y",
+      "dx": 0.1,
+      "dy": -0.1,
+      "shape": "Rectangular",
+      "diameter": 0.0,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 0.0
+    },
+    {
+      "id": "C5",
+      "kind": "column",
+      "x": 6.0,
+      "y": 7.0,
+      "base_elev": 0.0,
+      "length": 0.55,
+      "width": 0.55,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 1350.0,
+          "Mx": 45.0,
+          "My": 35.0,
+          "Vx": 30.0,
+          "Vy": 20.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 1890.0,
+          "Mx": 63.0,
+          "My": 49.0,
+          "Vx": 42.0,
+          "Vy": 28.0,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Circular column, 0.55 m diameter",
+      "dx": -0.05,
+      "dy": 0.0,
+      "shape": "Circular",
+      "diameter": 0.55,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 0.0
+    },
+    {
+      "id": "C6",
+      "kind": "column",
+      "x": 12.0,
+      "y": 7.0,
+      "base_elev": 0.0,
+      "length": 0.5,
+      "width": 0.5,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 2100.0,
+          "Mx": 80.0,
+          "My": 55.0,
+          "Vx": 50.0,
+          "Vy": 30.0,
+          "factored": false,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 2940.0,
+          "Mx": 112.0,
+          "My": 77.0,
+          "Vx": 70.0,
+          "Vy": 42.0,
+          "factored": true,
+          "includes_lateral": false,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Rectangular column, 0.10 m centre offset in y",
+      "dx": 0.0,
+      "dy": 0.1,
+      "shape": "Rectangular",
+      "diameter": 0.0,
+      "x1": null,
+      "y1": null,
+      "x2": null,
+      "y2": null,
+      "rotation": 0.0
+    },
+    {
+      "id": "W1",
+      "kind": "wall",
+      "x": 6.0,
+      "y": 3.5,
+      "base_elev": 0.0,
+      "length": 6.08,
+      "width": 0.25,
+      "wall_thickness": 0.25,
+      "preferred": "Auto",
+      "reactions": [
+        {
+          "case": "Service",
+          "P": 3200.0,
+          "Mx": 180.0,
+          "My": 900.0,
+          "Vx": 220.0,
+          "Vy": 60.0,
+          "factored": false,
+          "includes_lateral": true,
+          "buoyancy": 0.0
+        },
+        {
+          "case": "Factored",
+          "P": 4480.0,
+          "Mx": 252.0,
+          "My": 1260.0,
+          "Vx": 308.0,
+          "Vy": 84.0,
+          "factored": true,
+          "includes_lateral": true,
+          "buoyancy": 0.0
+        }
+      ],
+      "notes": "Angled shear wall from (3.0, 2.8) to (9.0, 4.2)",
+      "dx": 0.0,
+      "dy": 0.0,
+      "shape": "Rectangular",
+      "diameter": 0.0,
+      "x1": 3.0,
+      "y1": 2.8,
+      "x2": 9.0,
+      "y2": 4.2,
+      "rotation": 0.0
+    }
+  ],
+  "options": {
+    "allow_isolated": true,
+    "allow_combined": true,
+    "allow_raft": true,
+    "allow_single_pile": true,
+    "allow_pile_group": true,
+    "allow_strip": true,
+    "prefer_shallow": true,
+    "optimize_cost": false,
+    "min_footing_dim": 0.8,
+    "max_footing_dim": 8.0,
+    "footing_dim_step": 0.05,
+    "min_thickness_soil": 150.0,
+    "min_thickness_pile": 300.0,
+    "min_depth_cohesive": 1.5,
+    "min_depth_cohesionless": 2.0,
+    "min_depth_general": 0.5,
+    "fs_shallow": 2.5,
+    "fs_pile": 3.0,
+    "pile_control": "Normal",
+    "pile_design_method": "SPT",
+    "pile_type": "Bored",
+    "pile_diameters": [
+      0.4,
+      0.5,
+      0.6,
+      0.75,
+      0.9,
+      1.2
+    ],
+    "pile_lengths": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "max_pile_length": 40.0,
+    "pile_spacing_end_bearing": 2.5,
+    "pile_spacing_friction": 3.0,
+    "min_pile_spacing": 0.75,
+    "cap_edge_cover": 0.1,
+    "cap_embedment": 0.075,
+    "cap_min_thickness": 300.0,
+    "cap_cover": 50.0,
+    "group_efficiency": 1.0,
+    "single_pile_min_diameter": 0.6,
+    "settlement_limit_sand": 25.0,
+    "settlement_limit_clay": 40.0,
+    "differential_limit": 20.0,
+    "angular_limit": 0.002,
+    "pga_g": 0.2,
+    "raft_overhang": 0.5,
+    "raft_min_thickness": 500.0,
+    "raft_analysis": "Auto",
+    "raft_k": 0.0,
+    "raft_trigger": "Auto",
+    "raft_outline": [],
+    "crack_width_limit": 0.3,
+    "crack_check": true,
+    "uplift_check": true,
+    "uplift_fs": 1.1,
+    "pile_uplift_fs": 2.0,
+    "pile_lateral_fs": 2.5,
+    "pile_pm_check": true,
+    "pile_downdrag_check": true,
+    "pile_lateral_check": true,
+    "site_xmin": -3.0,
+    "site_xmax": 15.0,
+    "site_ymin": -3.0,
+    "site_ymax": 10.0,
+    "max_footing_area_ratio": 0.5,
+    "cost_concrete": 12000.0,
+    "cost_excavation": 500.0,
+    "cost_pile": 3500.0,
+    "cost_steel": 95.0,
+    "cost_raft": 0.0
+  },
+  "results": [
+    {
+      "element_id": "W1",
+      "element_kind": "wall",
+      "foundation_type": "Pile group with cap",
+      "requirement": "Support W1: service P=3200 kN; 3 x diameter 1200 mm piles at 3.00 m spacing; allowable per pile=1452 kN",
+      "quantity": 1,
+      "size": "3 x diameter 1200 mm, L=20.0 m; cap 7.40 x 1.40 x 1200 mm",
+      "length": 7.4,
+      "width": 1.4,
+      "thickness": 1200.0,
+      "depth": 2.2,
+      "pile_diameter": 1.2,
+      "pile_length": 20.0,
+      "pile_count": 3,
+      "cap_length": 7.4,
+      "cap_width": 1.4,
+      "cap_thickness": 1200.0,
+      "service_load": 3200.0,
+      "factored_load": 4480.0,
+      "q_service_max": 1205.925959659743,
+      "q_allow": 1451.6312294547304,
+      "utilization": 0.9490207943181528,
+      "settlement": 31.01877871877991,
+      "settlement_limit": 25.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.10.1/3.10.4 piles; 6.8.5 pile cap",
+      "remarks": "Bored pile, SPT method; Group settlement 31.0 mm > 25.0 mm; Development length available -213 mm < required 1394 mm; provide hooks or extend cap",
+      "alternatives": [
+        "Strip footing: 6.16 x 6.20 m, t=925 mm, depth=2.00 m | util 0.61 | CHECK"
+      ],
+      "covers": [
+        "W1"
+      ],
+      "details": {
+        "design": {
+          "length": 7.4,
+          "width": 1.4,
+          "thickness": 1.2,
+          "effective_depth": 1140.0,
+          "pile_count": 3,
+          "pile_diameter": 1.2,
+          "positions": [
+            [
+              -3.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              3.0,
+              0.0
+            ]
+          ],
+          "angle_deg": 13.134022306396327,
+          "center_x": 6.0,
+          "center_y": 3.5,
+          "pile_reactions": [
+            1417.7175231430263,
+            1612.6805333333332,
+            1807.6435435236401
+          ],
+          "max_pile_reaction": 1807.6435435236401,
+          "min_pile_reaction": 1417.7175231430263,
+          "factored_column_load": 4480.0,
+          "Mu_x": 25.616325434119897,
+          "Mu_y": 0.0,
+          "Vu_x": 0,
+          "Vu_y": 0,
+          "one_way_capacity_x": 1114.5606322672627,
+          "one_way_capacity_y": 5891.249056269817,
+          "punching_vu": 0.0,
+          "punching_capacity": 24290.923120593485,
+          "pile_punching_vu": 1807.6435435236401,
+          "pile_punching_capacity": 11360.73454078626,
+          "strut_angle": 89.44118180482995,
+          "strut_force": 1807.7295232036201,
+          "strut_capacity": 91997.75655103696,
+          "tie_As_req": 55.971109713429584,
+          "development_available": -212.50818266123633,
+          "development_required": 1394.2028736495135,
+          "crack_width": 0.0,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "bottom_x": {
+            "diameter": 20.0,
+            "spacing": 145.0,
+            "As_provided": 2166.615623165375,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 20.0,
+            "spacing": 145.0,
+            "As_provided": 2166.615623165375,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 100.0,
+            "As_provided": 1130.9733552923256,
+            "count_per_metre": 10.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 100.0,
+            "As_provided": 1130.9733552923256,
+            "count_per_metre": 10.0,
+            "ok": true,
+            "note": ""
+          },
+          "utilization": 0.1591132630583001,
+          "status": "CHECK",
+          "governing": "BNBC 6.8.5 pile cap flexure/shear/punching",
+          "remarks": "Development length available -213 mm < required 1394 mm; provide hooks or extend cap",
+          "concrete_volume": 12.431999999999999,
+          "steel_weight": 575.5008183887455,
+          "details": {
+            "shear": {
+              "d_mm": 1140.0,
+              "b0_mm": 19765.556648908358,
+              "one_way_ok": true,
+              "punching_ok": true,
+              "strut_ok": true,
+              "cap_weight": 358.0415999999999
+            },
+            "flexure_x": {
+              "As_req": 2160.0,
+              "As_min": 2160.0,
+              "rho": 5.216773122512666e-05,
+              "a": 35.576470588235296,
+              "phi_Mn": 916.2634616470589,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 2160.0,
+              "As_min": 2160.0,
+              "rho": 0.001894736842105263,
+              "a": 0.0,
+              "phi_Mn": 0.0,
+              "ok": true,
+              "note": ""
+            },
+            "pile_reactions": [
+              1417.7175231430263,
+              1612.6805333333332,
+              1807.6435435236401
+            ],
+            "service_pile_reactions": [
+              1016.1226666666666,
+              1166.1226666666666,
+              1316.1226666666666
+            ],
+            "crack_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 8.33265678937203,
+              "rho_eff": 0.014444104154435833,
+              "spacing": 405.3901608329132,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 0.0,
+              "rho_eff": 0.014444104154435833,
+              "spacing": 405.3901608329132,
+              "note": ""
+            },
+            "cover_mm": 50.0
+          }
+        },
+        "pile_group": {
+          "count": 3,
+          "diameter": 1.2,
+          "length": 20.0,
+          "spacing": 3.0,
+          "cap_length": 7.4,
+          "cap_width": 1.4,
+          "cap_thickness": 1.2,
+          "positions": [
+            [
+              -3.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              3.0,
+              0.0
+            ]
+          ],
+          "angle_deg": 13.134022306396327,
+          "max_pile_load": 1205.925959659743,
+          "min_pile_load": 927.4073736735903,
+          "group_capacity": 4354.893688364191,
+          "block_capacity": 4354.893688364191,
+          "efficiency": 1.0,
+          "utilization": 0.9490207943181528,
+          "settlement": 31.01877871877991,
+          "status": "CHECK",
+          "note": "Bored pile, SPT method",
+          "downdrag": 57.67964111990861,
+          "uplift_utilization": 0.0,
+          "lateral_utilization": 0.9490207943181528,
+          "pm_utilization": 0.4647941039255894,
+          "uplift_ok": true,
+          "lateral_ok": true,
+          "pm_ok": true
+        },
+        "pile_capacity": {
+          "diameter": 1.2,
+          "length": 20.0,
+          "skin_ultimate": 1157.36273358248,
+          "end_ultimate": 4523.893421169302,
+          "weight": 542.8672105403164,
+          "ultimate": 5138.388944211465,
+          "allowable_geotech": 1451.6312294547304,
+          "structural_capacity": 19470.907970547385,
+          "allowable": 1451.6312294547304,
+          "fs": 3.5,
+          "method": "SPT",
+          "note": "Downdrag 58 kN deducted (FS 3.5); SPT preliminary method, FS >= 3.5 (BNBC 3.10.1.13/16)",
+          "downdrag": 57.67964111990861,
+          "net_allowable": 1451.6312294547304,
+          "uplift_capacity": 676.5105620240261,
+          "lateral_capacity": 80.09486774335821,
+          "lateral_ultimate": 200.23716935839553,
+          "pm_utilization": 0.0,
+          "pm_ok": true
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 20.0,
+            "spacing": 145.0,
+            "As_provided": 2166.615623165375,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 20.0,
+            "spacing": 145.0,
+            "As_provided": 2166.615623165375,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 100.0,
+            "As_provided": 1130.9733552923256,
+            "count_per_metre": 10.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 100.0,
+            "As_provided": 1130.9733552923256,
+            "count_per_metre": 10.0,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "pile_utilization": 0.9490207943181528,
+          "cap_utilization": 0.1591132630583001,
+          "settlement_ok": false,
+          "block_capacity": 4354.893688364191,
+          "uplift_utilization": 0.0,
+          "lateral_utilization": 0.9490207943181528,
+          "pm_utilization": 0.4647941039255894,
+          "downdrag": 57.67964111990861,
+          "uplift_ok": true,
+          "lateral_ok": true,
+          "pm_ok": true,
+          "crack_width": 0.0,
+          "crack_ok": true
+        },
+        "rect": [
+          2.237726793030872,
+          1.977561575436996,
+          9.762273206969127,
+          5.0224384245630045
+        ],
+        "footprint": [
+          [
+            2.5558482548798582,
+            1.977561575436996
+          ],
+          [
+            9.762273206969127,
+            3.659060730924493
+          ],
+          [
+            9.444151745120141,
+            5.0224384245630045
+          ],
+          [
+            2.237726793030872,
+            3.340939269075507
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 3200.0,
+            "Mx": 180.0,
+            "My": 900.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 4480.0,
+            "Mx": 252.0,
+            "My": 1260.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 80.29040131753953,
+      "steel_weight": 1907.2219442454589,
+      "pile_length_total": 60.0,
+      "cost": 1366066.900513793
+    },
+    {
+      "element_id": "C1",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C1: service P=900 kN, Mx=30 kN.m, My=25 kN.m; q_allow=294.2 kPa",
+      "quantity": 1,
+      "size": "1.95 x 1.95 m, t=450 mm, depth=2.00 m",
+      "length": 1.9500000000000002,
+      "width": 1.9500000000000002,
+      "thickness": 450.0,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 900.0,
+      "factored_load": 1260.0,
+      "q_service_max": 291.99152379507404,
+      "q_allow": 294.19393079864795,
+      "utilization": 0.9925137578549121,
+      "settlement": 187.4495229785615,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 187.4 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Single pile: 1 x diameter 900 mm, L=25.0 m; cap 1.10 x 1.10 x 675 mm | util 0.92 | CHECK",
+        "Pile group with cap: 2 x diameter 600 mm, L=25.0 m; cap 2.30 x 0.80 x 600 mm | util 1.00 | CHECK"
+      ],
+      "covers": [
+        "C1"
+      ],
+      "details": {
+        "design": {
+          "length": 1.9500000000000002,
+          "width": 1.9500000000000002,
+          "thickness": 0.45,
+          "depth": 2.0,
+          "origin_x": -0.8250000000000001,
+          "origin_y": -0.9750000000000001,
+          "center_x": 0.15,
+          "center_y": 0.0,
+          "angle_deg": 0.0,
+          "q_service_max": 291.99152379507404,
+          "q_allow": 294.19393079864795,
+          "q_factored": 406.6281333131036,
+          "utilization": 0.9925137578549121,
+          "settlement": 187.4495229785615,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 187.4 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 130.0,
+            "As_provided": 869.9795040710196,
+            "count_per_metre": 7.6923076923076925,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 130.0,
+            "As_provided": 869.9795040710196,
+            "count_per_metre": 7.6923076923076925,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 114.36416249431043,
+          "Mu_y": 114.36416249431043,
+          "Vu_x": 155.73857505891874,
+          "Vu_y": 155.73857505891874,
+          "punching_vu": 1079.4499555777516,
+          "punching_capacity": 1625.862980805936,
+          "sliding_fs": 11.295518140581747,
+          "overturning_fs": 9.853876458420057,
+          "crack_width": 0.0,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 1.7111250000000002,
+          "steel_weight": 76.48921884693378,
+          "details": {
+            "shear": {
+              "d_mm": 367.0,
+              "one_way_vu_x": 155.73857505891874,
+              "one_way_vu_y": 155.73857505891874,
+              "one_way_capacity": 256.2930777206049,
+              "punching_vu": 1079.4499555777516,
+              "punching_capacity": 1625.862980805936,
+              "b0_mm": 3268.0,
+              "punching_area_m2": 0.667489,
+              "circular": false,
+              "q_u": 406.6281333131036,
+              "q_avg": 344.3209467455621
+            },
+            "flexure_x": {
+              "As_req": 840.230822605475,
+              "As_min": 810.0,
+              "rho": 0.0022894572823037467,
+              "a": 13.839095901737236,
+              "phi_Mn": 114.36416249431055,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 840.230822605475,
+              "As_min": 810.0,
+              "rho": 0.0022894572823037467,
+              "a": 13.839095901737236,
+              "phi_Mn": 114.36416249431055,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 71.23329230769231,
+              "consolidation": 102.06685996809126,
+              "secondary": 14.149370702777924,
+              "total": 187.4495229785615,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 187.4 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.295518140581747,
+              "overturning_fs": 9.853876458420057,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 285.78878414886594,
+              "rho_eff": 0.004192672308775998,
+              "spacing": 741.5631868557728,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 285.78878414886594,
+              "rho_eff": 0.004192672308775998,
+              "spacing": 741.5631868557728,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 1047.15675,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 130.0,
+            "As_provided": 869.9795040710196,
+            "count_per_metre": 7.6923076923076925,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 130.0,
+            "As_provided": 869.9795040710196,
+            "count_per_metre": 7.6923076923076925,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.9925137578549121,
+          "settlement_ok": false,
+          "sliding_fs": 11.295518140581747,
+          "overturning_fs": 9.853876458420057,
+          "crack_width": 0.0,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          -0.8250000000000001,
+          -0.9750000000000001,
+          1.125,
+          0.9750000000000001
+        ],
+        "footprint": [
+          [
+            -0.8250000000000001,
+            -0.9750000000000001
+          ],
+          [
+            1.125,
+            -0.9750000000000001
+          ],
+          [
+            1.125,
+            0.9750000000000001
+          ],
+          [
+            -0.8250000000000001,
+            0.9750000000000001
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 900.0,
+            "Mx": 30.0,
+            "My": 25.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 1260.0,
+            "Mx": 42.0,
+            "My": 35.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 1.7111250000000002,
+      "steel_weight": 76.48921884693378,
+      "pile_length_total": 0.0,
+      "cost": 31602.475790458713
+    },
+    {
+      "element_id": "C2",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C2: service P=1800 kN, Mx=70 kN.m, My=45 kN.m; q_allow=327.2 kPa",
+      "quantity": 1,
+      "size": "2.60 x 2.55 m, t=575 mm, depth=2.00 m",
+      "length": 2.5999999999999996,
+      "width": 2.55,
+      "thickness": 575.0000000000001,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 1800.0,
+      "factored_load": 2520.0,
+      "q_service_max": 322.798798823393,
+      "q_allow": 327.2440110676258,
+      "utilization": 0.9864162151364346,
+      "settlement": 287.99943010338797,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 288.0 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Pile group with cap: 2 x diameter 1200 mm, L=20.0 m; cap 4.40 x 1.40 x 1275 mm | util 1.00 | CHECK"
+      ],
+      "covers": [
+        "C2"
+      ],
+      "details": {
+        "design": {
+          "length": 2.5999999999999996,
+          "width": 2.55,
+          "thickness": 0.5750000000000001,
+          "depth": 2.0,
+          "origin_x": 4.7,
+          "origin_y": -1.1749999999999998,
+          "center_x": 6.0,
+          "center_y": 0.1,
+          "angle_deg": 0.0,
+          "q_service_max": 322.798798823393,
+          "q_allow": 327.2440110676258,
+          "q_factored": 449.7583183527501,
+          "utilization": 0.9864162151364346,
+          "settlement": 287.99943010338797,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 288.0 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 160.0,
+            "As_provided": 1256.637061435917,
+            "count_per_metre": 6.25,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 170.0,
+            "As_provided": 1182.7172342926278,
+            "count_per_metre": 5.882352941176471,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 224.87915917637494,
+          "Mu_y": 213.77575069204153,
+          "Vu_x": 228.4772257231969,
+          "Vu_y": 217.23326776437824,
+          "punching_vu": 2237.809804929211,
+          "punching_capacity": 2288.0917987408116,
+          "sliding_fs": 11.973225282590032,
+          "overturning_fs": 12.925470718255267,
+          "crack_width": 0.0,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 3.8122499999999997,
+          "steel_weight": 181.71283145216947,
+          "details": {
+            "shear": {
+              "d_mm": 492.0000000000001,
+              "one_way_vu_x": 228.4772257231969,
+              "one_way_vu_y": 217.23326776437824,
+              "one_way_capacity": 343.5863603229908,
+              "punching_vu": 2237.809804929211,
+              "punching_capacity": 2288.0917987408116,
+              "b0_mm": 3430.6191777200543,
+              "punching_area_m2": 0.9365590355175748,
+              "circular": true,
+              "q_u": 449.7583183527501,
+              "q_avg": 393.0504977375566
+            },
+            "flexure_x": {
+              "As_req": 1234.7012410924685,
+              "As_min": 1035.0000000000002,
+              "rho": 0.0025095553680741225,
+              "a": 20.33625573564066,
+              "phi_Mn": 224.8791591763748,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 1172.4911909370346,
+              "As_min": 1035.0000000000002,
+              "rho": 0.002383112176701289,
+              "a": 19.31161961543351,
+              "phi_Mn": 213.77575069204153,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 106.53261634615386,
+              "consolidation": 160.97462170493503,
+              "secondary": 20.492192052299057,
+              "total": 287.99943010338797,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 288.0 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.973225282590032,
+              "overturning_fs": 12.925470718255267,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 290.0577261566692,
+              "rho_eff": 0.006056082223787552,
+              "spacing": 704.1352494053288,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 292.969633798164,
+              "rho_eff": 0.00569984209297652,
+              "spacing": 732.2062024931618,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 2061.5535,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 160.0,
+            "As_provided": 1256.637061435917,
+            "count_per_metre": 6.25,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 170.0,
+            "As_provided": 1182.7172342926278,
+            "count_per_metre": 5.882352941176471,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.9864162151364346,
+          "settlement_ok": false,
+          "sliding_fs": 11.973225282590032,
+          "overturning_fs": 12.925470718255267,
+          "crack_width": 0.0,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          4.7,
+          -1.1749999999999998,
+          7.3,
+          1.375
+        ],
+        "footprint": [
+          [
+            4.7,
+            -1.1749999999999998
+          ],
+          [
+            7.3,
+            -1.1749999999999998
+          ],
+          [
+            7.3,
+            1.375
+          ],
+          [
+            4.7,
+            1.375
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 1800.0,
+            "Mx": 70.0,
+            "My": 45.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 2520.0,
+            "Mx": 98.0,
+            "My": 63.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 3.8122499999999997,
+      "steel_weight": 181.71283145216947,
+      "pile_length_total": 0.0,
+      "cost": 69639.71898795609
+    },
+    {
+      "element_id": "C3",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C3: service P=1150 kN, Mx=40 kN.m, My=30 kN.m; q_allow=304.1 kPa",
+      "quantity": 1,
+      "size": "2.15 x 2.15 m, t=450 mm, depth=2.00 m",
+      "length": 2.15,
+      "width": 2.15,
+      "thickness": 450.0,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 1150.0,
+      "factored_load": 1610.0,
+      "q_service_max": 301.84355591331587,
+      "q_allow": 304.05028356917967,
+      "utilization": 0.9927422279303294,
+      "settlement": 218.441724874297,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 218.4 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Single pile: 1 x diameter 1200 mm, L=20.0 m; cap 1.40 x 1.40 x 900 mm | util 0.79 | CHECK",
+        "Pile group with cap: 2 x diameter 750 mm, L=20.0 m; cap 2.83 x 0.95 x 750 mm | util 1.00 | CHECK"
+      ],
+      "covers": [
+        "C3"
+      ],
+      "details": {
+        "design": {
+          "length": 2.15,
+          "width": 2.15,
+          "thickness": 0.45,
+          "depth": 2.0,
+          "origin_x": 10.825000000000001,
+          "origin_y": -1.025,
+          "center_x": 11.9,
+          "center_y": 0.05,
+          "angle_deg": 0.0,
+          "q_service_max": 301.84355591331587,
+          "q_allow": 304.05028356917967,
+          "q_factored": 420.4209782786422,
+          "utilization": 0.9927422279303294,
+          "settlement": 218.441724874297,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 218.4 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 120.0,
+            "As_provided": 942.477796076938,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 120.0,
+            "As_provided": 942.477796076938,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 123.87236343281582,
+          "Mu_y": 123.87236343281582,
+          "Vu_x": 168.43926188345927,
+          "Vu_y": 168.43926188345927,
+          "punching_vu": 1321.7441173607494,
+          "punching_capacity": 1953.6453789962034,
+          "sliding_fs": 11.713006674339976,
+          "overturning_fs": 11.076349000544445,
+          "crack_width": 0.0,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 2.080125,
+          "steel_weight": 98.24537200758382,
+          "details": {
+            "shear": {
+              "d_mm": 367.0,
+              "one_way_vu_x": 168.43926188345927,
+              "one_way_vu_y": 168.43926188345927,
+              "one_way_capacity": 256.2930777206049,
+              "punching_vu": 1321.7441173607494,
+              "punching_capacity": 1953.6453789962034,
+              "b0_mm": 3926.8457268119896,
+              "punching_area_m2": 0.963757335136349,
+              "circular": false,
+              "q_u": 420.4209782786422,
+              "q_avg": 361.2563764196864
+            },
+            "flexure_x": {
+              "As_req": 911.5747560250271,
+              "As_min": 810.0,
+              "rho": 0.00248385492104912,
+              "a": 15.014172452176917,
+              "phi_Mn": 123.87236343281586,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 911.5747560250271,
+              "As_min": 810.0,
+              "rho": 0.00248385492104912,
+              "a": 15.014172452176917,
+              "phi_Mn": 123.87236343281586,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 82.11225786911845,
+              "consolidation": 120.22845896408643,
+              "secondary": 16.10100804109212,
+              "total": 218.441724874297,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 218.4 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.713006674339976,
+              "overturning_fs": 11.076349000544445,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 285.6881671265398,
+              "rho_eff": 0.004542061667840666,
+              "spacing": 704.1352494053285,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 285.6881671265398,
+              "rho_eff": 0.004542061667840666,
+              "spacing": 704.1352494053285,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 1328.89075,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 120.0,
+            "As_provided": 942.477796076938,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 120.0,
+            "As_provided": 942.477796076938,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 275.0,
+            "As_provided": 411.26303828811837,
+            "count_per_metre": 3.6363636363636362,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.9927422279303294,
+          "settlement_ok": false,
+          "sliding_fs": 11.713006674339976,
+          "overturning_fs": 11.076349000544445,
+          "crack_width": 0.0,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          10.825000000000001,
+          -1.025,
+          12.975,
+          1.125
+        ],
+        "footprint": [
+          [
+            10.825000000000001,
+            -1.025
+          ],
+          [
+            12.975,
+            -1.025
+          ],
+          [
+            12.975,
+            1.125
+          ],
+          [
+            10.825000000000001,
+            1.125
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 1150.0,
+            "Mx": 40.0,
+            "My": 30.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 1610.0,
+            "Mx": 56.0,
+            "My": 42.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 2.080125,
+      "steel_weight": 98.24537200758382,
+      "pile_length_total": 0.0,
+      "cost": 38917.31034072046
+    },
+    {
+      "element_id": "C4",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C4: service P=2400 kN, Mx=90 kN.m, My=60 kN.m; q_allow=346.1 kPa",
+      "quantity": 1,
+      "size": "2.85 x 2.85 m, t=625 mm, depth=2.00 m",
+      "length": 2.85,
+      "width": 2.85,
+      "thickness": 625.0000000000001,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 2400.0,
+      "factored_load": 3360.0,
+      "q_service_max": 345.15389026583074,
+      "q_allow": 346.122375158118,
+      "utilization": 0.9972019003630007,
+      "settlement": 344.9770561301824,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 345.0 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Pile group with cap: 3 x diameter 1200 mm, L=20.0 m; cap 7.40 x 1.40 x 2525 mm | util 1.15 | CHECK"
+      ],
+      "covers": [
+        "C4"
+      ],
+      "details": {
+        "design": {
+          "length": 2.85,
+          "width": 2.85,
+          "thickness": 0.6250000000000001,
+          "depth": 2.0,
+          "origin_x": -1.325,
+          "origin_y": 5.4750000000000005,
+          "center_x": 0.1,
+          "center_y": 6.9,
+          "angle_deg": 0.0,
+          "q_service_max": 345.15389026583074,
+          "q_allow": 346.122375158118,
+          "q_factored": 481.05544637216315,
+          "utilization": 0.9972019003630007,
+          "settlement": 344.9770561301824,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 345.0 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 200.0,
+            "As_provided": 565.4866776461628,
+            "count_per_metre": 5.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 200.0,
+            "As_provided": 565.4866776461628,
+            "count_per_metre": 5.0,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 332.07858782378395,
+          "Mu_y": 332.07858782378395,
+          "Vu_x": 304.5080975535792,
+          "Vu_y": 304.5080975535792,
+          "punching_vu": 3002.052726445503,
+          "punching_capacity": 3062.4064264217923,
+          "sliding_fs": 11.5510225929554,
+          "overturning_fs": 14.336581821369032,
+          "crack_width": 0.18582546666618785,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 5.076562500000001,
+          "steel_weight": 285.7799551581515,
+          "details": {
+            "shear": {
+              "d_mm": 542.0000000000001,
+              "one_way_vu_x": 304.5080975535792,
+              "one_way_vu_y": 304.5080975535792,
+              "one_way_capacity": 378.50367336394515,
+              "punching_vu": 3002.052726445503,
+              "punching_capacity": 3062.4064264217923,
+              "b0_mm": 4168.0,
+              "punching_area_m2": 1.085764,
+              "circular": false,
+              "q_u": 481.05544637216315,
+              "q_avg": 426.6257433056325
+            },
+            "flexure_x": {
+              "As_req": 1662.8912900130708,
+              "As_min": 1125.0000000000002,
+              "rho": 0.003068065110725222,
+              "a": 27.388797717862342,
+              "phi_Mn": 332.07858782378395,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 1662.8912900130708,
+              "As_min": 1125.0000000000002,
+              "rho": 0.003068065110725222,
+              "a": 27.388797717862342,
+              "phi_Mn": 332.07858782378395,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 129.98957879347492,
+              "consolidation": 192.0557386115157,
+              "secondary": 22.931738725191806,
+              "total": 344.9770561301824,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 345.0 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.5510225929554,
+              "overturning_fs": 14.336581821369032,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.18582546666618785,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 291.51983781355443,
+              "rho_eff": 0.008074776298383404,
+              "spacing": 591.8514370539965,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.18582546666618785,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 291.51983781355443,
+              "rho_eff": 0.008074776298383404,
+              "spacing": 591.8514370539965,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 2722.869375,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 200.0,
+            "As_provided": 565.4866776461628,
+            "count_per_metre": 5.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 200.0,
+            "As_provided": 565.4866776461628,
+            "count_per_metre": 5.0,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.9972019003630007,
+          "settlement_ok": false,
+          "sliding_fs": 11.5510225929554,
+          "overturning_fs": 14.336581821369032,
+          "crack_width": 0.18582546666618785,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          -1.325,
+          5.4750000000000005,
+          1.5250000000000001,
+          8.325000000000001
+        ],
+        "footprint": [
+          [
+            -1.325,
+            5.4750000000000005
+          ],
+          [
+            1.5250000000000001,
+            5.4750000000000005
+          ],
+          [
+            1.5250000000000001,
+            8.325000000000001
+          ],
+          [
+            -1.325,
+            8.325000000000001
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 2400.0,
+            "Mx": 90.0,
+            "My": 60.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 3360.0,
+            "Mx": 126.0,
+            "My": 84.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 5.076562500000001,
+      "steel_weight": 285.7799551581515,
+      "pile_length_total": 0.0,
+      "cost": 96190.34574002441
+    },
+    {
+      "element_id": "C5",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C5: service P=1350 kN, Mx=45 kN.m, My=35 kN.m; q_allow=311.5 kPa",
+      "quantity": 1,
+      "size": "2.30 x 2.30 m, t=500 mm, depth=2.00 m",
+      "length": 2.3,
+      "width": 2.3,
+      "thickness": 500.0,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 1350.0,
+      "factored_load": 1890.0,
+      "q_service_max": 305.44946165858477,
+      "q_allow": 311.5446736577387,
+      "utilization": 0.9821471653990257,
+      "settlement": 241.33615454988842,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 241.3 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Single pile: 1 x diameter 1200 mm, L=20.0 m; cap 1.40 x 1.40 x 900 mm | util 0.93 | CHECK",
+        "Pile group with cap: 2 x diameter 750 mm, L=25.0 m; cap 2.83 x 0.95 x 750 mm | util 1.00 | CHECK"
+      ],
+      "covers": [
+        "C5"
+      ],
+      "details": {
+        "design": {
+          "length": 2.3,
+          "width": 2.3,
+          "thickness": 0.5,
+          "depth": 2.0,
+          "origin_x": 4.800000000000001,
+          "origin_y": 5.85,
+          "center_x": 5.95,
+          "center_y": 7.0,
+          "angle_deg": 0.0,
+          "q_service_max": 305.44946165858477,
+          "q_allow": 311.5446736577387,
+          "q_factored": 425.46924632201865,
+          "utilization": 0.9821471653990257,
+          "settlement": 241.33615454988842,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 241.3 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 105.0,
+            "As_provided": 1077.1174812307863,
+            "count_per_metre": 9.523809523809524,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 105.0,
+            "As_provided": 1077.1174812307863,
+            "count_per_metre": 9.523809523809524,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 250.0,
+            "As_provided": 452.3893421169302,
+            "count_per_metre": 4.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 250.0,
+            "As_provided": 452.3893421169302,
+            "count_per_metre": 4.0,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 162.87494585764776,
+          "Mu_y": 162.87494585764776,
+          "Vu_x": 194.86491481548455,
+          "Vu_y": 194.86491481548455,
+          "punching_vu": 1686.649336996887,
+          "punching_capacity": 1717.3081554551318,
+          "sliding_fs": 11.74804899196187,
+          "overturning_fs": 12.02371781017245,
+          "crack_width": 0.0,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 2.6449999999999996,
+          "steel_weight": 127.03013019949788,
+          "details": {
+            "shear": {
+              "d_mm": 417.0,
+              "one_way_vu_x": 194.86491481548455,
+              "one_way_vu_y": 194.86491481548455,
+              "one_way_capacity": 291.21039076155927,
+              "punching_vu": 1686.649336996887,
+              "punching_capacity": 1717.3081554551318,
+              "b0_mm": 3037.9200960213298,
+              "punching_area_m2": 0.7344171832131565,
+              "circular": true,
+              "q_u": 425.46924632201865,
+              "q_avg": 370.23788279773163
+            },
+            "flexure_x": {
+              "As_req": 1055.2932487387975,
+              "As_min": 900.0,
+              "rho": 0.0025306792535702578,
+              "a": 17.381300567462546,
+              "phi_Mn": 162.87494585764765,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 1055.2932487387975,
+              "As_min": 900.0,
+              "rho": 0.0025306792535702578,
+              "a": 17.381300567462546,
+              "phi_Mn": 162.87494585764765,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 90.18951512287336,
+              "consolidation": 133.5819033821873,
+              "secondary": 17.564736044827765,
+              "total": 241.33615454988842,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 241.3 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.74804899196187,
+              "overturning_fs": 12.02371781017245,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 289.2569720072672,
+              "rho_eff": 0.005190927620389332,
+              "spacing": 647.9933432296625,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 289.2569720072672,
+              "rho_eff": 0.005190927620389332,
+              "spacing": 647.9933432296625,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 1556.31,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 12.0,
+            "spacing": 105.0,
+            "As_provided": 1077.1174812307863,
+            "count_per_metre": 9.523809523809524,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 12.0,
+            "spacing": 105.0,
+            "As_provided": 1077.1174812307863,
+            "count_per_metre": 9.523809523809524,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 250.0,
+            "As_provided": 452.3893421169302,
+            "count_per_metre": 4.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 250.0,
+            "As_provided": 452.3893421169302,
+            "count_per_metre": 4.0,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.980435512096573,
+          "settlement_ok": false,
+          "sliding_fs": 11.74804899196187,
+          "overturning_fs": 12.02371781017245,
+          "crack_width": 0.0,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          4.800000000000001,
+          5.85,
+          7.1,
+          8.15
+        ],
+        "footprint": [
+          [
+            4.800000000000001,
+            5.85
+          ],
+          [
+            7.1,
+            5.85
+          ],
+          [
+            7.1,
+            8.15
+          ],
+          [
+            4.800000000000001,
+            8.15
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 1350.0,
+            "Mx": 45.0,
+            "My": 35.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 1890.0,
+            "Mx": 63.0,
+            "My": 49.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 2.6449999999999996,
+      "steel_weight": 127.03013019949788,
+      "pile_length_total": 0.0,
+      "cost": 49097.862368952294
+    },
+    {
+      "element_id": "C6",
+      "element_kind": "column",
+      "foundation_type": "Isolated footing",
+      "requirement": "Support C6: service P=2100 kN, Mx=80 kN.m, My=55 kN.m; q_allow=336.9 kPa",
+      "quantity": 1,
+      "size": "2.75 x 2.70 m, t=575 mm, depth=2.00 m",
+      "length": 2.75,
+      "width": 2.7,
+      "thickness": 575.0000000000001,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 2100.0,
+      "factored_load": 2940.0,
+      "q_service_max": 333.73303404414514,
+      "q_allow": 336.9409412637621,
+      "utilization": 0.9952090346814862,
+      "settlement": 316.0646168738079,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+      "remarks": "Total settlement 316.1 mm exceeds 40.0 mm",
+      "alternatives": [
+        "Pile group with cap: 2 x diameter 1200 mm, L=20.0 m; cap 4.40 x 1.40 x 1325 mm | util 1.00 | CHECK"
+      ],
+      "covers": [
+        "C6"
+      ],
+      "details": {
+        "design": {
+          "length": 2.75,
+          "width": 2.7,
+          "thickness": 0.5750000000000001,
+          "depth": 2.0,
+          "origin_x": 10.625,
+          "origin_y": 5.75,
+          "center_x": 12.0,
+          "center_y": 7.1,
+          "angle_deg": 0.0,
+          "q_service_max": 333.73303404414514,
+          "q_allow": 336.9409412637621,
+          "q_factored": 465.06624766180323,
+          "utilization": 0.9952090346814862,
+          "settlement": 316.0646168738079,
+          "settlement_limit": 40.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.9.1/3.9.3 bearing; 6.8 flexure/shear",
+          "remarks": "Total settlement 316.1 mm exceeds 40.0 mm",
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 125.0,
+            "As_provided": 1608.495438637974,
+            "count_per_metre": 8.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_x": 294.29973484848483,
+          "Mu_y": 281.365079835391,
+          "Vu_x": 294.3869347699214,
+          "Vu_y": 282.76027857837636,
+          "punching_vu": 2633.824946721616,
+          "punching_capacity": 2646.5042568313943,
+          "sliding_fs": 11.30013138077432,
+          "overturning_fs": 13.26616941811888,
+          "crack_width": 0.16550912632469086,
+          "crack_limit": 0.3,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift": 0.0,
+          "uplift_ok": true,
+          "concrete_volume": 4.269375000000001,
+          "steel_weight": 252.73382879669546,
+          "details": {
+            "shear": {
+              "d_mm": 492.0000000000001,
+              "one_way_vu_x": 294.3869347699214,
+              "one_way_vu_y": 282.76027857837636,
+              "one_way_capacity": 343.5863603229908,
+              "punching_vu": 2633.824946721616,
+              "punching_capacity": 2646.5042568313943,
+              "b0_mm": 3968.0000000000005,
+              "punching_area_m2": 0.9840640000000003,
+              "circular": false,
+              "q_u": 465.06624766180323,
+              "q_avg": 408.91959595959594
+            },
+            "flexure_x": {
+              "As_req": 1626.7562640960423,
+              "As_min": 1035.0000000000002,
+              "rho": 0.003306415170926914,
+              "a": 26.793632585111283,
+              "phi_Mn": 294.29973484848506,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_y": {
+              "As_req": 1553.2959133402644,
+              "As_min": 1035.0000000000002,
+              "rho": 0.0031571055149192356,
+              "a": 25.58369739619259,
+              "phi_Mn": 281.36507983539116,
+              "ok": true,
+              "note": ""
+            },
+            "settlement": {
+              "immediate": 117.32321652892564,
+              "consolidation": 176.78548028884757,
+              "secondary": 21.95592005603471,
+              "total": 316.0646168738079,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 316.1 mm exceeds 40.0 mm"
+            },
+            "stability": {
+              "sliding_fs": 11.30013138077432,
+              "overturning_fs": 13.26616941811888,
+              "ok": true,
+              "note": ""
+            },
+            "crack_x": {
+              "width": 0.16550912632469086,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 284.65448645354974,
+              "rho_eff": 0.008074776298383404,
+              "spacing": 591.8514370539965,
+              "note": ""
+            },
+            "crack_y": {
+              "width": 0.13871847882564312,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 283.4830688138232,
+              "rho_eff": 0.0077517852464480674,
+              "spacing": 605.886913597913,
+              "note": ""
+            },
+            "uplift": {
+              "uplift": 0.0,
+              "resistance": 2392.91625,
+              "fs": 999.0,
+              "ok": true,
+              "note": ""
+            }
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 120.0,
+            "As_provided": 1675.5160819145563,
+            "count_per_metre": 8.333333333333334,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 125.0,
+            "As_provided": 1608.495438637974,
+            "count_per_metre": 8.0,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 12.0,
+            "spacing": 215.0,
+            "As_provided": 526.0341187406166,
+            "count_per_metre": 4.651162790697675,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.9904793189940495,
+          "settlement_ok": false,
+          "sliding_fs": 11.30013138077432,
+          "overturning_fs": 13.26616941811888,
+          "crack_width": 0.16550912632469086,
+          "crack_ok": true,
+          "uplift_fs": 999.0,
+          "uplift_ok": true
+        },
+        "rect": [
+          10.625,
+          5.75,
+          13.375,
+          8.45
+        ],
+        "footprint": [
+          [
+            10.625,
+            5.75
+          ],
+          [
+            13.375,
+            5.75
+          ],
+          [
+            13.375,
+            8.45
+          ],
+          [
+            10.625,
+            8.45
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 2100.0,
+            "Mx": 80.0,
+            "My": 55.0,
+            "cases": [
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 2940.0,
+            "Mx": 112.0,
+            "My": 77.0,
+            "cases": [
+              "Factored"
+            ]
+          }
+        },
+        "selected": true
+      },
+      "concrete_volume": 4.269375000000001,
+      "steel_weight": 252.73382879669546,
+      "pile_length_total": 0.0,
+      "cost": 82667.21373568609
+    },
+    {
+      "element_id": "RAFT-1",
+      "element_kind": "raft",
+      "foundation_type": "Raft",
+      "requirement": "Global raft supporting 7 elements; total service P=14976 kN; q_allow=637.6 kPa; analysis=Plate",
+      "quantity": 1,
+      "size": "Raft 13.40 x 8.61 m, t=750 mm, depth=2.00 m",
+      "length": 13.4,
+      "width": 8.607355715851497,
+      "thickness": 750.0,
+      "depth": 2.0,
+      "pile_diameter": 0.0,
+      "pile_length": 0.0,
+      "pile_count": 0,
+      "cap_length": 0.0,
+      "cap_width": 0.0,
+      "cap_thickness": 0.0,
+      "service_load": 14976.09419866338,
+      "factored_load": 20551.313038396056,
+      "q_service_max": 174.57009222986434,
+      "q_allow": 637.5933077157945,
+      "utilization": 0.9999999999999998,
+      "settlement": 286.9615291657999,
+      "settlement_limit": 40.0,
+      "status": "CHECK",
+      "governing": "BNBC 3.8.10 raft; 6.8 flexure/shear/punching",
+      "remarks": "Raft alternative evaluated, not selected. Total settlement 287.0 mm exceeds 40.0 mm; Plate method: Kirchhoff plate on Winkler springs; free edges; Crack width 0.317 mm > 0.30 mm; reduce bar spacing or increase reinforcement",
+      "alternatives": [],
+      "covers": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "W1"
+      ],
+      "details": {
+        "design": {
+          "analysis": {
+            "method": "Plate",
+            "x0": -0.65,
+            "y0": -0.7573557158514985,
+            "length": 13.4,
+            "width": 8.607355715851497,
+            "thickness": 0.75,
+            "area": 115.33856659241005,
+            "outline": [
+              [
+                -0.65,
+                -0.7573557158514985
+              ],
+              [
+                12.75,
+                -0.7573557158514985
+              ],
+              [
+                12.75,
+                7.849999999999999
+              ],
+              [
+                -0.65,
+                7.849999999999999
+              ]
+            ],
+            "depth": 2.0,
+            "k_subgrade": 15000.0,
+            "q_service_max": 174.57009222986434,
+            "q_service_min": 85.11917981713012,
+            "q_service_avg": 129.84463602349723,
+            "q_factored_avg": 178.18249043289612,
+            "q_local_max": 268.7078196133692,
+            "q_local_min": 102.81078909256412,
+            "q_allow": 637.5933077157945,
+            "e_x": 0.02654230099831237,
+            "e_y": 0.477089972356067,
+            "kern_ok": true,
+            "service_load": 14976.09419866338,
+            "factored_load": 20551.313038396056,
+            "settlement": 286.9615291657999,
+            "settlement_limit": 40.0,
+            "differential": 0.015483722898619474,
+            "differential_checked": true,
+            "deflection": 0.024839396766202223,
+            "moment_x_pos": 97.6446645157686,
+            "moment_x_neg": 529.7262091287131,
+            "moment_y_pos": 55.235639334020554,
+            "moment_y_neg": 623.0568535976654,
+            "service_moment_x_pos": 69.74619131352853,
+            "service_moment_x_neg": 378.37586128189014,
+            "service_moment_y_pos": 39.45402913814956,
+            "service_moment_y_neg": 445.0406070150152,
+            "shear_x": 137.394687736556,
+            "shear_y": 181.65849538915165,
+            "punching_vu": 3118.1662694222127,
+            "punching_capacity": 4200.910147795579,
+            "one_way_utilization": 0.39116794215769446,
+            "buoyancy_uplift": 0.0,
+            "status": "CHECK",
+            "governing": "BNBC 3.8.10 / 3.9.6.3 raft",
+            "remarks": "Total settlement 287.0 mm exceeds 40.0 mm; Plate method: Kirchhoff plate on Winkler springs; free edges",
+            "details": {
+              "plate": {
+                "moment_x_pos": 97.6446645157686,
+                "moment_x_neg": 529.7262091287131,
+                "moment_y_pos": 55.235639334020554,
+                "moment_y_neg": 623.0568535976654,
+                "shear_x": 137.394687736556,
+                "shear_y": 181.65849538915165,
+                "q_max": 372.59095149303334,
+                "q_min": 140.33510801374123,
+                "deflection": 0.024839396766202223,
+                "differential": 0.015483722898619474,
+                "w": [
+                  [
+                    0.011118528141391948,
+                    0.010052367074940883,
+                    0.009355673867582749,
+                    0.009457604372282467,
+                    0.010005654544064954,
+                    0.010016292739979943,
+                    0.009635235953866266,
+                    0.009866832537705815,
+                    0.010923071864353193,
+                    0.012223358501970195
+                  ],
+                  [
+                    0.011245901373974118,
+                    0.010273804595895743,
+                    0.009629948408164044,
+                    0.009571106084960486,
+                    0.009801093856384231,
+                    0.009704988141148004,
+                    0.009429796426622939,
+                    0.009625549106348366,
+                    0.010462307032305279,
+                    0.011573128883222074
+                  ],
+                  [
+                    0.011851518051872945,
+                    0.010855647237680005,
+                    0.010161962776921161,
+                    0.00992175479952123,
+                    0.009833205062000716,
+                    0.009592754468795506,
+                    0.009430715021880306,
+                    0.00963188997619954,
+                    0.010343298522746187,
+                    0.011327563189178479
+                  ],
+                  [
+                    0.013646327126149944,
+                    0.012270838181492645,
+                    0.011215919879427931,
+                    0.010641468013603673,
+                    0.01028063097726385,
+                    0.00986150146621262,
+                    0.009847695529614451,
+                    0.01021678668875675,
+                    0.011095613483196147,
+                    0.012259208585590224
+                  ],
+                  [
+                    0.016847400180557914,
+                    0.01467526359135508,
+                    0.012864716021486589,
+                    0.01172586953688681,
+                    0.011068515339983783,
+                    0.010686325672429638,
+                    0.010781462576289749,
+                    0.011523645965209257,
+                    0.012944166040644472,
+                    0.014677818042349142
+                  ],
+                  [
+                    0.020989727049066282,
+                    0.01779603551103076,
+                    0.015019825003427845,
+                    0.013246774722120146,
+                    0.012387947469751484,
+                    0.012004101156117048,
+                    0.012223422033426036,
+                    0.013473920430595903,
+                    0.015708969132164304,
+                    0.018279992900785587
+                  ],
+                  [
+                    0.024839396766202223,
+                    0.020960527361891534,
+                    0.01735904199992897,
+                    0.015025199069184507,
+                    0.013975684825919585,
+                    0.013566473882322376,
+                    0.013929992427879132,
+                    0.015699833279571408,
+                    0.018752774453885356,
+                    0.02199862905725558
+                  ]
+                ],
+                "x": [
+                  -0.65,
+                  0.8388888888888889,
+                  2.327777777777778,
+                  3.816666666666667,
+                  5.305555555555555,
+                  6.794444444444444,
+                  8.283333333333333,
+                  9.772222222222222,
+                  11.261111111111111,
+                  12.75
+                ],
+                "y": [
+                  -0.7573557158514985,
+                  0.6772035701237511,
+                  2.1117628560990007,
+                  3.54632214207425,
+                  4.9808814280495,
+                  6.41544071402475,
+                  7.849999999999999
+                ],
+                "Mx": [
+                  [
+                    -100.46983750311914,
+                    -179.9795257090697,
+                    -268.3337159448117,
+                    -133.49568388204733,
+                    97.6446645157686,
+                    66.16938559146844,
+                    -185.75476661996575,
+                    -277.7739468362478,
+                    -155.22269311445504,
+                    -70.43039065821408
+                  ],
+                  [
+                    -118.9414493110388,
+                    -167.59017962943253,
+                    -213.76179147845727,
+                    -108.26004401795791,
+                    37.31686180667757,
+                    4.83429640135973,
+                    -168.23235877829362,
+                    -240.10287262357062,
+                    -162.03870156978599,
+                    -103.77653483897343
+                  ],
+                  [
+                    -161.89532563944704,
+                    -181.55599109054722,
+                    -188.1145173158019,
+                    -95.00203910960452,
+                    -24.405135659397434,
+                    -73.88811707963168,
+                    -175.4382926419965,
+                    -224.83032802787454,
+                    -185.11696404720323,
+                    -155.27292411305987
+                  ],
+                  [
+                    -181.38148141433396,
+                    -200.05785380467162,
+                    -209.75831042716305,
+                    -125.46387067511036,
+                    -90.69266422226455,
+                    -166.18778390166054,
+                    -223.54758789732423,
+                    -240.4336454393283,
+                    -205.9071052083693,
+                    -182.74107460526338
+                  ],
+                  [
+                    -145.51138149619752,
+                    -204.77490133927674,
+                    -273.49697447673435,
+                    -237.29802159945297,
+                    -198.74228196945475,
+                    -240.46456149458268,
+                    -301.6297330971387,
+                    -298.646153130425,
+                    -212.17405516201305,
+                    -157.52689826654196
+                  ],
+                  [
+                    -96.92382901568647,
+                    -213.83518739086335,
+                    -374.9215441673016,
+                    -373.34316154434475,
+                    -286.7887329765007,
+                    -310.8814308965647,
+                    -411.8285719186818,
+                    -382.0664309597061,
+                    -209.8824042178792,
+                    -103.88423340435367
+                  ],
+                  [
+                    -45.57522719838643,
+                    -195.75711578668648,
+                    -444.0168568176091,
+                    -487.73851641104164,
+                    -367.14341018990683,
+                    -393.10667350707746,
+                    -529.7262091287131,
+                    -455.4860393960872,
+                    -190.21722963689956,
+                    -46.35519146945388
+                  ]
+                ],
+                "My": [
+                  [
+                    -125.25214679109204,
+                    -115.24329825200442,
+                    -110.33966014585205,
+                    -78.8440165157828,
+                    -32.51147796308057,
+                    -30.538675089680027,
+                    -82.52584482847375,
+                    -110.00346172894116,
+                    -106.19135555445378,
+                    -103.06528310179561
+                  ],
+                  [
+                    -259.6887808914146,
+                    -204.38549305816002,
+                    -156.80875652398797,
+                    -114.37261539349451,
+                    -90.23761067444906,
+                    -84.69150858306212,
+                    -124.76408447945349,
+                    -166.07689235716117,
+                    -203.34969105915343,
+                    -239.15957371884025
+                  ],
+                  [
+                    -501.0503961913177,
+                    -367.9335393844895,
+                    -246.12417884366698,
+                    -166.31890068055844,
+                    -159.65309426072608,
+                    -181.57182803968874,
+                    -206.07714509511325,
+                    -278.7797745669826,
+                    -386.7097346065405,
+                    -497.87426526062706
+                  ],
+                  [
+                    -579.717266739571,
+                    -427.9053089655857,
+                    -285.7959499609809,
+                    -193.84782968628838,
+                    -197.10001854923067,
+                    -251.59206648186264,
+                    -259.95717737635874,
+                    -341.18095656606005,
+                    -478.7563959367015,
+                    -623.0568535976654
+                  ],
+                  [
+                    -358.5013975261713,
+                    -312.0334400653659,
+                    -251.66866714141378,
+                    -211.84666181434665,
+                    -223.55617196216784,
+                    -244.5129437496088,
+                    -257.977911307519,
+                    -310.8844124071054,
+                    -395.100587733697,
+                    -468.0366701785998
+                  ],
+                  [
+                    -58.517503865971754,
+                    -131.1370007939632,
+                    -171.13185095016107,
+                    -179.2831583471374,
+                    -174.79330655268708,
+                    -170.15545577840606,
+                    -196.42122153056084,
+                    -207.76023108786876,
+                    -204.05917381818728,
+                    -176.50851460890604
+                  ],
+                  [
+                    55.235639334020554,
+                    -48.76474542479627,
+                    -129.28581559457604,
+                    -154.172099195523,
+                    -132.42476317339865,
+                    -132.40440467244804,
+                    -164.12900714667762,
+                    -151.7057344458075,
+                    -99.39162922869923,
+                    -34.87903810851193
+                  ]
+                ],
+                "nodes_x": 10,
+                "nodes_y": 7
+              },
+              "plate_service": {
+                "moment_x_pos": 69.74619131352853,
+                "moment_x_neg": 378.37586128189014,
+                "moment_y_pos": 39.45402913814956,
+                "moment_y_neg": 445.0406070150152,
+                "shear_x": 98.13906226358336,
+                "shear_y": 129.75606776350142,
+                "q_max": 268.7078196133692,
+                "q_min": 102.81078909256412,
+                "deflection": 0.01791385464089128,
+                "differential": 0.011059802034720338,
+                "w": [
+                  [
+                    0.008113234194598133,
+                    0.00735169059557932,
+                    0.006854052606170942,
+                    0.006926860120174659,
+                    0.007318324533857163,
+                    0.007325923245225018,
+                    0.007053739821305956,
+                    0.00721916594197314,
+                    0.007973622588016689,
+                    0.008902398737868284
+                  ],
+                  [
+                    0.008204215087098189,
+                    0.007509860264144795,
+                    0.007049963002271771,
+                    0.007007932781633606,
+                    0.007172209766304129,
+                    0.007103562826849682,
+                    0.006906997311392509,
+                    0.007046820643832004,
+                    0.007644504861580164,
+                    0.008437949022275256
+                  ],
+                  [
+                    0.008636798436735317,
+                    0.007925462158682032,
+                    0.007429973272766251,
+                    0.007258396156003327,
+                    0.007195146348444678,
+                    0.007023395924726673,
+                    0.006907653457688385,
+                    0.007051349843679378,
+                    0.0075594987908721425,
+                    0.008262544963382088
+                  ],
+                  [
+                    0.009918804921286257,
+                    0.008936312835516895,
+                    0.008182799777088821,
+                    0.007772477025646849,
+                    0.007514736290317132,
+                    0.0072153580681376785,
+                    0.0072054966799402565,
+                    0.0074691332123236875,
+                    0.008096866622447943,
+                    0.008928005963743548
+                  ],
+                  [
+                    0.012205285671510328,
+                    0.01065375955416425,
+                    0.009360511304598708,
+                    0.008547049539835892,
+                    0.008077510832718302,
+                    0.00780451821303677,
+                    0.007872473139409414,
+                    0.00840260412154346,
+                    0.009417261303656636,
+                    0.010655584144218279
+                  ],
+                  [
+                    0.01516409056930693,
+                    0.012882882346384137,
+                    0.010899874856031656,
+                    0.009633410379604804,
+                    0.009019962347280745,
+                    0.008745786408970432,
+                    0.00890244417339472,
+                    0.009795657304008816,
+                    0.011392120647193752,
+                    0.013228566177677772
+                  ],
+                  [
+                    0.01791385464089128,
+                    0.015143233657687001,
+                    0.012570744129275422,
+                    0.010903713475104704,
+                    0.010154060449467622,
+                    0.009861766918326761,
+                    0.010121423017029433,
+                    0.011385595043305705,
+                    0.013566267294825374,
+                    0.015884734848786417
+                  ]
+                ],
+                "x": [
+                  -0.65,
+                  0.8388888888888889,
+                  2.327777777777778,
+                  3.816666666666667,
+                  5.305555555555555,
+                  6.794444444444444,
+                  8.283333333333333,
+                  9.772222222222222,
+                  11.261111111111111,
+                  12.75
+                ],
+                "y": [
+                  -0.7573557158514985,
+                  0.6772035701237511,
+                  2.1117628560990007,
+                  3.54632214207425,
+                  4.9808814280495,
+                  6.41544071402475,
+                  7.849999999999999
+                ],
+                "Mx": [
+                  [
+                    -71.76416861449299,
+                    -128.55680252239674,
+                    -191.66693772284015,
+                    -95.35405753427382,
+                    69.74619131352853,
+                    47.26384922474386,
+                    -132.6819737756417,
+                    -198.409959788148,
+                    -110.87335066909556,
+                    -50.307420868127736
+                  ],
+                  [
+                    -84.95817704817591,
+                    -119.70726965563803,
+                    -152.68699173072505,
+                    -77.32860049546984,
+                    26.65490367829764,
+                    3.4530712459287165,
+                    -120.16596818142035,
+                    -171.50204969151568,
+                    -115.7419281844585,
+                    -74.12609528241228
+                  ],
+                  [
+                    -115.6395171728394,
+                    -129.68284918843207,
+                    -134.36751011505194,
+                    -67.85859690288271,
+                    -17.43223727699903,
+                    -52.77722400573685,
+                    -125.31306371173092,
+                    -160.59308919510016,
+                    -132.2264013003277,
+                    -110.90923036827647
+                  ],
+                  [
+                    -129.55819984159322,
+                    -142.8984653887305,
+                    -149.82736231487297,
+                    -89.61704799261268,
+                    -64.78047193457154,
+                    -118.70555741985577,
+                    -159.6768460084791,
+                    -171.7383158949856,
+                    -147.07650210565302,
+                    -130.5293378351121
+                  ],
+                  [
+                    -103.9366999276606,
+                    -146.267785080383,
+                    -195.35497951572034,
+                    -169.49858439563212,
+                    -141.9587703556113,
+                    -171.7603985878449,
+                    -215.44980689397664,
+                    -213.31867855406566,
+                    -151.552894953762,
+                    -112.5192119064763
+                  ],
+                  [
+                    -69.23130540863724,
+                    -152.73941805665916,
+                    -267.80110079418614,
+                    -266.67368444289093,
+                    -204.84909259540206,
+                    -222.05816253830358,
+                    -294.1632632816988,
+                    -272.90459136018495,
+                    -149.91600150452646,
+                    -74.20302282911383
+                  ],
+                  [
+                    -32.553732682539234,
+                    -139.82650972069322,
+                    -317.1548954891263,
+                    -348.3846521978462,
+                    -262.2452906190992,
+                    -280.790478702789,
+                    -378.37586128189014,
+                    -325.3471687594624,
+                    -135.86944818512868,
+                    -33.11085001901421
+                  ]
+                ],
+                "My": [
+                  [
+                    -89.46581809406914,
+                    -82.31664059558132,
+                    -78.81404188165308,
+                    -56.31715357980701,
+                    -23.22248319936833,
+                    -21.8133382897975,
+                    -58.94703094601449,
+                    -78.57390015528806,
+                    -75.85096724018929,
+                    -73.61805831600466
+                  ],
+                  [
+                    -185.4919847195919,
+                    -145.98963636022273,
+                    -112.0062530895453,
+                    -81.69472372609168,
+                    -64.45543466032925,
+                    -60.49393316648168,
+                    -89.11720164463239,
+                    -118.62635011323977,
+                    -145.24977778950566,
+                    -170.82826531061292
+                  ],
+                  [
+                    -357.8931376694731,
+                    -262.8096686600803,
+                    -175.80298256118124,
+                    -118.79921247958751,
+                    -114.03792221011824,
+                    -129.69416062366304,
+                    -147.19795848998282,
+                    -199.12840807783445,
+                    -276.2212366758317,
+                    -355.62447271897787
+                  ],
+                  [
+                    -414.08375925923696,
+                    -305.6466466884803,
+                    -204.13996168548675,
+                    -138.46273295437484,
+                    -140.78572503246093,
+                    -179.7086164129136,
+                    -185.68369559014047,
+                    -243.70068068911232,
+                    -341.9688516678455,
+                    -445.0406070150152
+                  ],
+                  [
+                    -256.0724243372252,
+                    -222.88102628927933,
+                    -179.76333134528753,
+                    -151.31904186086376,
+                    -159.68297771114734,
+                    -174.65210041646262,
+                    -184.2699343559875,
+                    -222.06029224935116,
+                    -282.2147031952272,
+                    -334.3119048032429
+                  ],
+                  [
+                    -41.79821541570743,
+                    -93.66928474294066,
+                    -122.23703482252502,
+                    -128.05939726440775,
+                    -124.8523602876421,
+                    -121.53960973458443,
+                    -140.30087096685293,
+                    -148.4001634923166,
+                    -145.75655118881525,
+                    -126.07750880351502
+                  ],
+                  [
+                    39.45402913814956,
+                    -34.83196000471937,
+                    -92.34701005931193,
+                    -110.1229269224795,
+                    -94.58911549245298,
+                    -94.57457370606006,
+                    -117.23500403044643,
+                    -108.36123781019188,
+                    -70.99401986465115,
+                    -24.913597606514138
+                  ]
+                ],
+                "nodes_x": 10,
+                "nodes_y": 7
+              },
+              "strips_check": {
+                "moment_x_pos": 1741.101466368252,
+                "moment_x_neg": 1671.7052361518784,
+                "moment_y_pos": 3.256726999096712,
+                "moment_y_neg": 760.9216877802979,
+                "shear_x": 854.630040655118,
+                "shear_y": 388.1954072805068,
+                "q_max": 334.1001641744891,
+                "q_min": 0.0,
+                "deflection": 0.3341001641744891,
+                "differential": 0.3313422511751189,
+                "strips_x": 3,
+                "strips_y": 3
+              },
+              "rigid_service": {
+                "q_max": 174.57009222986434,
+                "q_min": 85.11917981713012,
+                "q_avg": 129.84463602349723,
+                "e_x": 0.02654230099831237,
+                "e_y": 0.477089972356067,
+                "total": 14976.09419866338
+              },
+              "rigid_factored": {
+                "q_max": 240.7981291218101,
+                "q_min": 115.56685174398214,
+                "q_avg": 178.18249043289612,
+                "total": 20551.313038396056
+              },
+              "settlement": {
+                "immediate": 74.35948227571446,
+                "consolidation": 188.20658016115803,
+                "secondary": 24.395466728927452,
+                "total": 286.9615291657999,
+                "limit": 40.0,
+                "ok": false,
+                "note": "Total settlement 287.0 mm exceeds 40.0 mm"
+              },
+              "d_mm": 665.0,
+              "one_way_capacity": 464.40026344469277,
+              "base_layer": "Fill"
+            }
+          },
+          "thickness": 0.75,
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 145.0,
+            "As_provided": 1386.6339988258396,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 145.0,
+            "As_provided": 1386.6339988258396,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 20.0,
+            "spacing": 150.0,
+            "As_provided": 2094.3951023931954,
+            "count_per_metre": 6.666666666666667,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 20.0,
+            "spacing": 125.0,
+            "As_provided": 2513.2741228718346,
+            "count_per_metre": 8.0,
+            "ok": true,
+            "note": ""
+          },
+          "Mu_bottom_x": 97.6446645157686,
+          "Mu_bottom_y": 55.235639334020554,
+          "Mu_top_x": 529.7262091287131,
+          "Mu_top_y": 623.0568535976654,
+          "one_way_capacity": 464.40026344469277,
+          "shear_utilization": 0.39116794215769446,
+          "flexure_utilization": 0.9999999999999998,
+          "punching_utilization": 0.7422596912858195,
+          "crack_width": 0.31680032455592116,
+          "crack_limit": 0.3,
+          "crack_ok": false,
+          "utilization": 0.9999999999999998,
+          "status": "CHECK",
+          "governing": "BNBC 3.8.10 raft; 6.8 flexure/shear/punching",
+          "remarks": "Total settlement 287.0 mm exceeds 40.0 mm; Plate method: Kirchhoff plate on Winkler springs; free edges; Crack width 0.317 mm > 0.30 mm; reduce bar spacing or increase reinforcement",
+          "concrete_volume": 86.50392494430753,
+          "steel_weight": 6830.635127260681,
+          "details": {
+            "development_length_mm": 1394.2028736495135,
+            "flexure_bottom_x": {
+              "As_req": 1350.0,
+              "As_min": 1350.0,
+              "rho": 0.0005869726290897306,
+              "a": 22.235294117647058,
+              "phi_Mn": 333.67616470588234,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_bottom_y": {
+              "As_req": 1350.0,
+              "As_min": 1350.0,
+              "rho": 0.00033133778010307954,
+              "a": 22.235294117647058,
+              "phi_Mn": 333.67616470588234,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_top_x": {
+              "As_req": 2083.571930894419,
+              "As_min": 1350.0,
+              "rho": 0.003020763944754504,
+              "a": 34.31765533237866,
+              "phi_Mn": 529.7262091287133,
+              "ok": true,
+              "note": ""
+            },
+            "flexure_top_y": {
+              "As_req": 2462.0798347324026,
+              "As_min": 1350.0,
+              "rho": 0.0035695249506812647,
+              "a": 40.551903160298394,
+              "phi_Mn": 623.0568535976655,
+              "ok": true,
+              "note": ""
+            },
+            "d_bottom_mm": 665.0,
+            "d_top_mm": 689.75,
+            "min_steel_mm2_per_m": 1350.0,
+            "crack_bottom_x": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 84.04163590540185,
+              "rho_eff": 0.006525336465062774,
+              "spacing": 671.8367431416173,
+              "note": ""
+            },
+            "crack_bottom_y": {
+              "width": 0.0,
+              "limit": 0.3,
+              "ok": true,
+              "sigma_s": 47.540676980110966,
+              "rho_eff": 0.006525336465062774,
+              "spacing": 671.8367431416173,
+              "note": ""
+            },
+            "crack_top_x": {
+              "width": 0.31680032455592116,
+              "limit": 0.3,
+              "ok": false,
+              "sigma_s": 291.02519777064083,
+              "rho_eff": 0.013904697775224534,
+              "spacing": 415.37167569281075,
+              "note": "Crack width 0.317 mm > 0.30 mm; reduce bar spacing or increase reinforcement"
+            },
+            "crack_top_y": {
+              "width": 0.3139184080091365,
+              "limit": 0.3,
+              "ok": false,
+              "sigma_s": 285.24994125244314,
+              "rho_eff": 0.01668563733026944,
+              "spacing": 374.6180630773423,
+              "note": "Crack width 0.314 mm > 0.30 mm; reduce bar spacing or increase reinforcement"
+            }
+          }
+        },
+        "raft_analysis": {
+          "method": "Plate",
+          "x0": -0.65,
+          "y0": -0.7573557158514985,
+          "length": 13.4,
+          "width": 8.607355715851497,
+          "thickness": 0.75,
+          "area": 115.33856659241005,
+          "outline": [
+            [
+              -0.65,
+              -0.7573557158514985
+            ],
+            [
+              12.75,
+              -0.7573557158514985
+            ],
+            [
+              12.75,
+              7.849999999999999
+            ],
+            [
+              -0.65,
+              7.849999999999999
+            ]
+          ],
+          "depth": 2.0,
+          "k_subgrade": 15000.0,
+          "q_service_max": 174.57009222986434,
+          "q_service_min": 85.11917981713012,
+          "q_service_avg": 129.84463602349723,
+          "q_factored_avg": 178.18249043289612,
+          "q_local_max": 268.7078196133692,
+          "q_local_min": 102.81078909256412,
+          "q_allow": 637.5933077157945,
+          "e_x": 0.02654230099831237,
+          "e_y": 0.477089972356067,
+          "kern_ok": true,
+          "service_load": 14976.09419866338,
+          "factored_load": 20551.313038396056,
+          "settlement": 286.9615291657999,
+          "settlement_limit": 40.0,
+          "differential": 0.015483722898619474,
+          "differential_checked": true,
+          "deflection": 0.024839396766202223,
+          "moment_x_pos": 97.6446645157686,
+          "moment_x_neg": 529.7262091287131,
+          "moment_y_pos": 55.235639334020554,
+          "moment_y_neg": 623.0568535976654,
+          "service_moment_x_pos": 69.74619131352853,
+          "service_moment_x_neg": 378.37586128189014,
+          "service_moment_y_pos": 39.45402913814956,
+          "service_moment_y_neg": 445.0406070150152,
+          "shear_x": 137.394687736556,
+          "shear_y": 181.65849538915165,
+          "punching_vu": 3118.1662694222127,
+          "punching_capacity": 4200.910147795579,
+          "one_way_utilization": 0.39116794215769446,
+          "buoyancy_uplift": 0.0,
+          "status": "CHECK",
+          "governing": "BNBC 3.8.10 / 3.9.6.3 raft",
+          "remarks": "Total settlement 287.0 mm exceeds 40.0 mm; Plate method: Kirchhoff plate on Winkler springs; free edges",
+          "details": {
+            "plate": {
+              "moment_x_pos": 97.6446645157686,
+              "moment_x_neg": 529.7262091287131,
+              "moment_y_pos": 55.235639334020554,
+              "moment_y_neg": 623.0568535976654,
+              "shear_x": 137.394687736556,
+              "shear_y": 181.65849538915165,
+              "q_max": 372.59095149303334,
+              "q_min": 140.33510801374123,
+              "deflection": 0.024839396766202223,
+              "differential": 0.015483722898619474,
+              "w": [
+                [
+                  0.011118528141391948,
+                  0.010052367074940883,
+                  0.009355673867582749,
+                  0.009457604372282467,
+                  0.010005654544064954,
+                  0.010016292739979943,
+                  0.009635235953866266,
+                  0.009866832537705815,
+                  0.010923071864353193,
+                  0.012223358501970195
+                ],
+                [
+                  0.011245901373974118,
+                  0.010273804595895743,
+                  0.009629948408164044,
+                  0.009571106084960486,
+                  0.009801093856384231,
+                  0.009704988141148004,
+                  0.009429796426622939,
+                  0.009625549106348366,
+                  0.010462307032305279,
+                  0.011573128883222074
+                ],
+                [
+                  0.011851518051872945,
+                  0.010855647237680005,
+                  0.010161962776921161,
+                  0.00992175479952123,
+                  0.009833205062000716,
+                  0.009592754468795506,
+                  0.009430715021880306,
+                  0.00963188997619954,
+                  0.010343298522746187,
+                  0.011327563189178479
+                ],
+                [
+                  0.013646327126149944,
+                  0.012270838181492645,
+                  0.011215919879427931,
+                  0.010641468013603673,
+                  0.01028063097726385,
+                  0.00986150146621262,
+                  0.009847695529614451,
+                  0.01021678668875675,
+                  0.011095613483196147,
+                  0.012259208585590224
+                ],
+                [
+                  0.016847400180557914,
+                  0.01467526359135508,
+                  0.012864716021486589,
+                  0.01172586953688681,
+                  0.011068515339983783,
+                  0.010686325672429638,
+                  0.010781462576289749,
+                  0.011523645965209257,
+                  0.012944166040644472,
+                  0.014677818042349142
+                ],
+                [
+                  0.020989727049066282,
+                  0.01779603551103076,
+                  0.015019825003427845,
+                  0.013246774722120146,
+                  0.012387947469751484,
+                  0.012004101156117048,
+                  0.012223422033426036,
+                  0.013473920430595903,
+                  0.015708969132164304,
+                  0.018279992900785587
+                ],
+                [
+                  0.024839396766202223,
+                  0.020960527361891534,
+                  0.01735904199992897,
+                  0.015025199069184507,
+                  0.013975684825919585,
+                  0.013566473882322376,
+                  0.013929992427879132,
+                  0.015699833279571408,
+                  0.018752774453885356,
+                  0.02199862905725558
+                ]
+              ],
+              "x": [
+                -0.65,
+                0.8388888888888889,
+                2.327777777777778,
+                3.816666666666667,
+                5.305555555555555,
+                6.794444444444444,
+                8.283333333333333,
+                9.772222222222222,
+                11.261111111111111,
+                12.75
+              ],
+              "y": [
+                -0.7573557158514985,
+                0.6772035701237511,
+                2.1117628560990007,
+                3.54632214207425,
+                4.9808814280495,
+                6.41544071402475,
+                7.849999999999999
+              ],
+              "Mx": [
+                [
+                  -100.46983750311914,
+                  -179.9795257090697,
+                  -268.3337159448117,
+                  -133.49568388204733,
+                  97.6446645157686,
+                  66.16938559146844,
+                  -185.75476661996575,
+                  -277.7739468362478,
+                  -155.22269311445504,
+                  -70.43039065821408
+                ],
+                [
+                  -118.9414493110388,
+                  -167.59017962943253,
+                  -213.76179147845727,
+                  -108.26004401795791,
+                  37.31686180667757,
+                  4.83429640135973,
+                  -168.23235877829362,
+                  -240.10287262357062,
+                  -162.03870156978599,
+                  -103.77653483897343
+                ],
+                [
+                  -161.89532563944704,
+                  -181.55599109054722,
+                  -188.1145173158019,
+                  -95.00203910960452,
+                  -24.405135659397434,
+                  -73.88811707963168,
+                  -175.4382926419965,
+                  -224.83032802787454,
+                  -185.11696404720323,
+                  -155.27292411305987
+                ],
+                [
+                  -181.38148141433396,
+                  -200.05785380467162,
+                  -209.75831042716305,
+                  -125.46387067511036,
+                  -90.69266422226455,
+                  -166.18778390166054,
+                  -223.54758789732423,
+                  -240.4336454393283,
+                  -205.9071052083693,
+                  -182.74107460526338
+                ],
+                [
+                  -145.51138149619752,
+                  -204.77490133927674,
+                  -273.49697447673435,
+                  -237.29802159945297,
+                  -198.74228196945475,
+                  -240.46456149458268,
+                  -301.6297330971387,
+                  -298.646153130425,
+                  -212.17405516201305,
+                  -157.52689826654196
+                ],
+                [
+                  -96.92382901568647,
+                  -213.83518739086335,
+                  -374.9215441673016,
+                  -373.34316154434475,
+                  -286.7887329765007,
+                  -310.8814308965647,
+                  -411.8285719186818,
+                  -382.0664309597061,
+                  -209.8824042178792,
+                  -103.88423340435367
+                ],
+                [
+                  -45.57522719838643,
+                  -195.75711578668648,
+                  -444.0168568176091,
+                  -487.73851641104164,
+                  -367.14341018990683,
+                  -393.10667350707746,
+                  -529.7262091287131,
+                  -455.4860393960872,
+                  -190.21722963689956,
+                  -46.35519146945388
+                ]
+              ],
+              "My": [
+                [
+                  -125.25214679109204,
+                  -115.24329825200442,
+                  -110.33966014585205,
+                  -78.8440165157828,
+                  -32.51147796308057,
+                  -30.538675089680027,
+                  -82.52584482847375,
+                  -110.00346172894116,
+                  -106.19135555445378,
+                  -103.06528310179561
+                ],
+                [
+                  -259.6887808914146,
+                  -204.38549305816002,
+                  -156.80875652398797,
+                  -114.37261539349451,
+                  -90.23761067444906,
+                  -84.69150858306212,
+                  -124.76408447945349,
+                  -166.07689235716117,
+                  -203.34969105915343,
+                  -239.15957371884025
+                ],
+                [
+                  -501.0503961913177,
+                  -367.9335393844895,
+                  -246.12417884366698,
+                  -166.31890068055844,
+                  -159.65309426072608,
+                  -181.57182803968874,
+                  -206.07714509511325,
+                  -278.7797745669826,
+                  -386.7097346065405,
+                  -497.87426526062706
+                ],
+                [
+                  -579.717266739571,
+                  -427.9053089655857,
+                  -285.7959499609809,
+                  -193.84782968628838,
+                  -197.10001854923067,
+                  -251.59206648186264,
+                  -259.95717737635874,
+                  -341.18095656606005,
+                  -478.7563959367015,
+                  -623.0568535976654
+                ],
+                [
+                  -358.5013975261713,
+                  -312.0334400653659,
+                  -251.66866714141378,
+                  -211.84666181434665,
+                  -223.55617196216784,
+                  -244.5129437496088,
+                  -257.977911307519,
+                  -310.8844124071054,
+                  -395.100587733697,
+                  -468.0366701785998
+                ],
+                [
+                  -58.517503865971754,
+                  -131.1370007939632,
+                  -171.13185095016107,
+                  -179.2831583471374,
+                  -174.79330655268708,
+                  -170.15545577840606,
+                  -196.42122153056084,
+                  -207.76023108786876,
+                  -204.05917381818728,
+                  -176.50851460890604
+                ],
+                [
+                  55.235639334020554,
+                  -48.76474542479627,
+                  -129.28581559457604,
+                  -154.172099195523,
+                  -132.42476317339865,
+                  -132.40440467244804,
+                  -164.12900714667762,
+                  -151.7057344458075,
+                  -99.39162922869923,
+                  -34.87903810851193
+                ]
+              ],
+              "nodes_x": 10,
+              "nodes_y": 7
+            },
+            "plate_service": {
+              "moment_x_pos": 69.74619131352853,
+              "moment_x_neg": 378.37586128189014,
+              "moment_y_pos": 39.45402913814956,
+              "moment_y_neg": 445.0406070150152,
+              "shear_x": 98.13906226358336,
+              "shear_y": 129.75606776350142,
+              "q_max": 268.7078196133692,
+              "q_min": 102.81078909256412,
+              "deflection": 0.01791385464089128,
+              "differential": 0.011059802034720338,
+              "w": [
+                [
+                  0.008113234194598133,
+                  0.00735169059557932,
+                  0.006854052606170942,
+                  0.006926860120174659,
+                  0.007318324533857163,
+                  0.007325923245225018,
+                  0.007053739821305956,
+                  0.00721916594197314,
+                  0.007973622588016689,
+                  0.008902398737868284
+                ],
+                [
+                  0.008204215087098189,
+                  0.007509860264144795,
+                  0.007049963002271771,
+                  0.007007932781633606,
+                  0.007172209766304129,
+                  0.007103562826849682,
+                  0.006906997311392509,
+                  0.007046820643832004,
+                  0.007644504861580164,
+                  0.008437949022275256
+                ],
+                [
+                  0.008636798436735317,
+                  0.007925462158682032,
+                  0.007429973272766251,
+                  0.007258396156003327,
+                  0.007195146348444678,
+                  0.007023395924726673,
+                  0.006907653457688385,
+                  0.007051349843679378,
+                  0.0075594987908721425,
+                  0.008262544963382088
+                ],
+                [
+                  0.009918804921286257,
+                  0.008936312835516895,
+                  0.008182799777088821,
+                  0.007772477025646849,
+                  0.007514736290317132,
+                  0.0072153580681376785,
+                  0.0072054966799402565,
+                  0.0074691332123236875,
+                  0.008096866622447943,
+                  0.008928005963743548
+                ],
+                [
+                  0.012205285671510328,
+                  0.01065375955416425,
+                  0.009360511304598708,
+                  0.008547049539835892,
+                  0.008077510832718302,
+                  0.00780451821303677,
+                  0.007872473139409414,
+                  0.00840260412154346,
+                  0.009417261303656636,
+                  0.010655584144218279
+                ],
+                [
+                  0.01516409056930693,
+                  0.012882882346384137,
+                  0.010899874856031656,
+                  0.009633410379604804,
+                  0.009019962347280745,
+                  0.008745786408970432,
+                  0.00890244417339472,
+                  0.009795657304008816,
+                  0.011392120647193752,
+                  0.013228566177677772
+                ],
+                [
+                  0.01791385464089128,
+                  0.015143233657687001,
+                  0.012570744129275422,
+                  0.010903713475104704,
+                  0.010154060449467622,
+                  0.009861766918326761,
+                  0.010121423017029433,
+                  0.011385595043305705,
+                  0.013566267294825374,
+                  0.015884734848786417
+                ]
+              ],
+              "x": [
+                -0.65,
+                0.8388888888888889,
+                2.327777777777778,
+                3.816666666666667,
+                5.305555555555555,
+                6.794444444444444,
+                8.283333333333333,
+                9.772222222222222,
+                11.261111111111111,
+                12.75
+              ],
+              "y": [
+                -0.7573557158514985,
+                0.6772035701237511,
+                2.1117628560990007,
+                3.54632214207425,
+                4.9808814280495,
+                6.41544071402475,
+                7.849999999999999
+              ],
+              "Mx": [
+                [
+                  -71.76416861449299,
+                  -128.55680252239674,
+                  -191.66693772284015,
+                  -95.35405753427382,
+                  69.74619131352853,
+                  47.26384922474386,
+                  -132.6819737756417,
+                  -198.409959788148,
+                  -110.87335066909556,
+                  -50.307420868127736
+                ],
+                [
+                  -84.95817704817591,
+                  -119.70726965563803,
+                  -152.68699173072505,
+                  -77.32860049546984,
+                  26.65490367829764,
+                  3.4530712459287165,
+                  -120.16596818142035,
+                  -171.50204969151568,
+                  -115.7419281844585,
+                  -74.12609528241228
+                ],
+                [
+                  -115.6395171728394,
+                  -129.68284918843207,
+                  -134.36751011505194,
+                  -67.85859690288271,
+                  -17.43223727699903,
+                  -52.77722400573685,
+                  -125.31306371173092,
+                  -160.59308919510016,
+                  -132.2264013003277,
+                  -110.90923036827647
+                ],
+                [
+                  -129.55819984159322,
+                  -142.8984653887305,
+                  -149.82736231487297,
+                  -89.61704799261268,
+                  -64.78047193457154,
+                  -118.70555741985577,
+                  -159.6768460084791,
+                  -171.7383158949856,
+                  -147.07650210565302,
+                  -130.5293378351121
+                ],
+                [
+                  -103.9366999276606,
+                  -146.267785080383,
+                  -195.35497951572034,
+                  -169.49858439563212,
+                  -141.9587703556113,
+                  -171.7603985878449,
+                  -215.44980689397664,
+                  -213.31867855406566,
+                  -151.552894953762,
+                  -112.5192119064763
+                ],
+                [
+                  -69.23130540863724,
+                  -152.73941805665916,
+                  -267.80110079418614,
+                  -266.67368444289093,
+                  -204.84909259540206,
+                  -222.05816253830358,
+                  -294.1632632816988,
+                  -272.90459136018495,
+                  -149.91600150452646,
+                  -74.20302282911383
+                ],
+                [
+                  -32.553732682539234,
+                  -139.82650972069322,
+                  -317.1548954891263,
+                  -348.3846521978462,
+                  -262.2452906190992,
+                  -280.790478702789,
+                  -378.37586128189014,
+                  -325.3471687594624,
+                  -135.86944818512868,
+                  -33.11085001901421
+                ]
+              ],
+              "My": [
+                [
+                  -89.46581809406914,
+                  -82.31664059558132,
+                  -78.81404188165308,
+                  -56.31715357980701,
+                  -23.22248319936833,
+                  -21.8133382897975,
+                  -58.94703094601449,
+                  -78.57390015528806,
+                  -75.85096724018929,
+                  -73.61805831600466
+                ],
+                [
+                  -185.4919847195919,
+                  -145.98963636022273,
+                  -112.0062530895453,
+                  -81.69472372609168,
+                  -64.45543466032925,
+                  -60.49393316648168,
+                  -89.11720164463239,
+                  -118.62635011323977,
+                  -145.24977778950566,
+                  -170.82826531061292
+                ],
+                [
+                  -357.8931376694731,
+                  -262.8096686600803,
+                  -175.80298256118124,
+                  -118.79921247958751,
+                  -114.03792221011824,
+                  -129.69416062366304,
+                  -147.19795848998282,
+                  -199.12840807783445,
+                  -276.2212366758317,
+                  -355.62447271897787
+                ],
+                [
+                  -414.08375925923696,
+                  -305.6466466884803,
+                  -204.13996168548675,
+                  -138.46273295437484,
+                  -140.78572503246093,
+                  -179.7086164129136,
+                  -185.68369559014047,
+                  -243.70068068911232,
+                  -341.9688516678455,
+                  -445.0406070150152
+                ],
+                [
+                  -256.0724243372252,
+                  -222.88102628927933,
+                  -179.76333134528753,
+                  -151.31904186086376,
+                  -159.68297771114734,
+                  -174.65210041646262,
+                  -184.2699343559875,
+                  -222.06029224935116,
+                  -282.2147031952272,
+                  -334.3119048032429
+                ],
+                [
+                  -41.79821541570743,
+                  -93.66928474294066,
+                  -122.23703482252502,
+                  -128.05939726440775,
+                  -124.8523602876421,
+                  -121.53960973458443,
+                  -140.30087096685293,
+                  -148.4001634923166,
+                  -145.75655118881525,
+                  -126.07750880351502
+                ],
+                [
+                  39.45402913814956,
+                  -34.83196000471937,
+                  -92.34701005931193,
+                  -110.1229269224795,
+                  -94.58911549245298,
+                  -94.57457370606006,
+                  -117.23500403044643,
+                  -108.36123781019188,
+                  -70.99401986465115,
+                  -24.913597606514138
+                ]
+              ],
+              "nodes_x": 10,
+              "nodes_y": 7
+            },
+            "strips_check": {
+              "moment_x_pos": 1741.101466368252,
+              "moment_x_neg": 1671.7052361518784,
+              "moment_y_pos": 3.256726999096712,
+              "moment_y_neg": 760.9216877802979,
+              "shear_x": 854.630040655118,
+              "shear_y": 388.1954072805068,
+              "q_max": 334.1001641744891,
+              "q_min": 0.0,
+              "deflection": 0.3341001641744891,
+              "differential": 0.3313422511751189,
+              "strips_x": 3,
+              "strips_y": 3
+            },
+            "rigid_service": {
+              "q_max": 174.57009222986434,
+              "q_min": 85.11917981713012,
+              "q_avg": 129.84463602349723,
+              "e_x": 0.02654230099831237,
+              "e_y": 0.477089972356067,
+              "total": 14976.09419866338
+            },
+            "rigid_factored": {
+              "q_max": 240.7981291218101,
+              "q_min": 115.56685174398214,
+              "q_avg": 178.18249043289612,
+              "total": 20551.313038396056
+            },
+            "settlement": {
+              "immediate": 74.35948227571446,
+              "consolidation": 188.20658016115803,
+              "secondary": 24.395466728927452,
+              "total": 286.9615291657999,
+              "limit": 40.0,
+              "ok": false,
+              "note": "Total settlement 287.0 mm exceeds 40.0 mm"
+            },
+            "d_mm": 665.0,
+            "one_way_capacity": 464.40026344469277,
+            "base_layer": "Fill"
+          }
+        },
+        "rebar_layouts": {
+          "bottom_x": {
+            "diameter": 16.0,
+            "spacing": 145.0,
+            "As_provided": 1386.6339988258396,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "bottom_y": {
+            "diameter": 16.0,
+            "spacing": 145.0,
+            "As_provided": 1386.6339988258396,
+            "count_per_metre": 6.896551724137931,
+            "ok": true,
+            "note": ""
+          },
+          "top_x": {
+            "diameter": 20.0,
+            "spacing": 150.0,
+            "As_provided": 2094.3951023931954,
+            "count_per_metre": 6.666666666666667,
+            "ok": true,
+            "note": ""
+          },
+          "top_y": {
+            "diameter": 20.0,
+            "spacing": 125.0,
+            "As_provided": 2513.2741228718346,
+            "count_per_metre": 8.0,
+            "ok": true,
+            "note": ""
+          }
+        },
+        "checks": {
+          "bearing_utilization": 0.27379536472123467,
+          "settlement_ok": false,
+          "shear_utilization": 0.39116794215769446,
+          "punching_utilization": 0.7422596912858195,
+          "flexure_utilization": 0.9999999999999998,
+          "crack_width": 0.31680032455592116,
+          "crack_ok": false,
+          "uplift": 0.0,
+          "outline_vertices": 4,
+          "outline_area": 115.33856659241005
+        },
+        "rect": [
+          -0.65,
+          -0.7573557158514985,
+          12.75,
+          7.849999999999999
+        ],
+        "footprint": [
+          [
+            -0.65,
+            -0.7573557158514985
+          ],
+          [
+            12.75,
+            -0.7573557158514985
+          ],
+          [
+            12.75,
+            7.849999999999999
+          ],
+          [
+            -0.65,
+            7.849999999999999
+          ]
+        ],
+        "site_ok": true,
+        "loads": {
+          "service": {
+            "P": 12900.0,
+            "Mx": 535.0,
+            "My": 1150.0,
+            "cases": [
+              "Service",
+              "Service",
+              "Service",
+              "Service",
+              "Service",
+              "Service",
+              "Service"
+            ]
+          },
+          "factored": {
+            "P": 18060.0,
+            "Mx": 749.0,
+            "My": 1610.0,
+            "cases": [
+              "Factored",
+              "Factored",
+              "Factored",
+              "Factored",
+              "Factored",
+              "Factored",
+              "Factored"
+            ]
+          }
+        },
+        "selected": false
+      },
+      "concrete_volume": 86.50392494430753,
+      "steel_weight": 6830.635127260681,
+      "pile_length_total": 0.0,
+      "cost": 1802296.003013865
+    }
+  ],
+  "warnings": [
+    "BH-1: liquefaction FS 0.89 < 1.0 at 8.0-16.0 m (SM).",
+    "Raft alternative requires review: Raft alternative evaluated, not selected. Total settlement 287.0 mm exceeds 40.0 mm; Plate method: Kirchhoff plate on Winkler springs; free edges; Crack width 0.317 mm > 0.30 mm; reduce bar spacing or increase reinforcement",
+    "W1 and C2: Differential settlement 257.0 mm > 20.0 mm.",
+    "W1 and C5: Differential settlement 210.3 mm > 20.0 mm.",
+    "W1 and C6: Differential settlement 285.0 mm > 20.0 mm."
+  ]
+}
